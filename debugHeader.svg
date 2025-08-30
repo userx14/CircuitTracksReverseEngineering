@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="debugConnector.svg"
+   sodipodi:docname="debugHeader.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,12 +25,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="4.5934363"
-     inkscape:cx="120.06262"
+     inkscape:cx="120.17147"
      inkscape:cy="181.45457"
      inkscape:window-width="3840"
      inkscape:window-height="2066"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:window-x="3829"
+     inkscape:window-y="-4"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="true">
@@ -178,6 +178,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-21.831048,-17.106418)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.391001;stroke-linecap:round;fill-opacity:1"
+       id="rect1"
+       width="52.946785"
+       height="78.526611"
+       x="21.831047"
+       y="17.106419"
+       ry="0" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke-width:0.842035;stroke-linecap:round"
        id="rect19"
