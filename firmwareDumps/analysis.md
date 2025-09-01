@@ -2,6 +2,7 @@
 r2 -a arm -b 16 -m 0x08000000 dumpCT_flash_0x08000000.bin'
 
 # analysis results
+```
 0x080098c8 -> reset vector
     0x08004ef9 -> enable coprocessor, enable clocks, set vector table offset 0x08000000
     0x0800990c -> second called function
@@ -44,3 +45,4 @@ r2 -a arm -b 16 -m 0x08000000 dumpCT_flash_0x08000000.bin'
 
             0x080096fa -> calls underlying function in loop
                 0x08008b90 -> breakpoint, trigger exception
+```
