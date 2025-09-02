@@ -40,4 +40,4 @@
 ## Debugging header
 
 <image  src="./Documentation/Diagrams/debugHeader.svg">
-<image  src="./Documentation/Mainboard Photos/j3_debug_port.png">
+<image  src="./Documentation/Mainboard-Photos/j3_debug_port.png">
