@@ -1,4 +1,4 @@
-# Circuit Tracks reverse engineering project
+# Circuit Tracks Reverse Engineering
 
 ## Components
 * Main Processor: <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f745ve.html">STM32f745VEH6
@@ -13,4 +13,4 @@
 * cut off voltage: 2.8 V
 
 ## Debugging header
-<image src="./debugHeader.svg">
+<image src="./Documentation/Diagrams/debugHeader.svg">
