@@ -1,0 +1,1074 @@
+{
+    "firmwares": [
+        {
+            "id": 1,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3592,
+            "version": "1.8",
+            "release_notes": "#### Non-quantised record\n\n*   You can now record synth and drum tracks directly to microsteps. To toggle quantised recording on/off press shift + record. The record button will be brightly lit when quantisation is enabled, and dimly lit when disabled (non-quantised). This choice will persist through session change and power cycle.\n\n#### Synth microstep edit\n\n*   Along with recording non-quantised patterns, you can now edit the microstep of individual synth notes.\n    1.  First press a step with 1 or more notes assigned to it.\n    2.  Enter gate view and then hold shift to display the microstep menu.\n    3.  The purple and green pads represent the notes assigned to the step. Press a purple or green pad to select a note. You can also select multiple notes by pressing them simultaneously. All notes are selected when a step is first pressed.\n    4.  Use the top row of pads to edit the position of the selected note(s) within the step\n\n#### Per-note velocity\n\n*   It is now possible to have different velocities assigned to synth notes within a single step.\n*   Additionally, with fixed velocity disabled (dimly lit), velocity will now be tracked when manually assigning notes to steps (outside of record).\n*   The range of velocities present on a step will be displayed in velocity view. Brightly lit pads show the lowest velocity value for a note on the step, while dimly lit pads show the highest value.\n\n#### Assignable MIDI channels\n\n*   MIDI channels for each track can now be changed from the setup menu.\n*   Press Synth 1, Synth 2 or Drum 1/2/3/4 to select each track and then use the top two rows to assign the MIDI channel 1-15 (channel 16 is reserved for the session).\n",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/1/file"
+        },
+        {
+            "id": 2,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3538,
+            "version": "1.7",
+            "release_notes": "#### Make songs\n\n*   We've expanded what’s possible with the Patterns view, allowing you to now make complex sequences of patterns and pattern chains. There's a new Pattern Chain Sequence function, from which you can select up to 32 patterns and 16 chains of patterns in any order. You can repeat patterns and chains and build up your sequence, navigating easily between sequences. Toggle the append setting to add patterns and chains to an existing pattern sequence, even when playing.\n\n#### Create Tied/Drone Notes\n\n*   Each step now has a tie-forward setting, so it's now possible to tie notes together in order to create drone notes and long ambient pads.\n\n#### Take your music off the grid\n\n*   It's now possible to take your music off the grid by delaying notes on a step from one to five ticks (each step is divided up into six ticks). It's also possible to use Synth Micro-nudge to create new, more complex rhythms like triplets across the beat.\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 3,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3501,
+            "version": "1.6",
+            "release_notes": "### New in V1.6\n\n#### Panning\n\n*   Synth and Drum parts can now be panned left and right allowing you to dictate where you send audio tracks in the stereo field, or extract audio tracks into your DAW\n\n#### FX On/Off\n\n*   You can now mute all FX from the FX View by pressing one pad. This is great in performance or to help when hard panning tracks to route to external hardware or into your DAW\n\n#### Drum Micro-Steps\n\n*   Each step can now be sub-divided into six Micro-Steps on your drums tracks. This allows the creation of instant fills and stutter effects in your drum patterns and retriggering a sample up to six times within each step.\n\n#### Brightness Setting\n\n*   You can now set Circuit to ‘dim’ so that it’s more comfortable to use in dark environments. You can toggle ‘dim’ or full brightness modes from the Settings page (hold Shift when you power on)\n\n#### Program Change Setting\n\n*   Selecting Synth patches and Sessions now sends Program Change messages. These can be turned off using the newly added magenta pads on the Settings page (hold Shift when you power on)\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 4,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3408,
+            "version": "1.5",
+            "release_notes": "#### Fractional Gate\n\n*   Note lengths for synth tracks are now recorded more precisely. Six (6) gradations of fractional gate length are available. Can also be input manually via repeated presses of a length pad in a synth Gate View. Please note sessions saved by the 1.5 firmware cannot be loaded by previous firmware releases.\n\n#### Patch Preview\n\n*   Preview patches from the synth patch view (with variable or fixed velocity). Hold SHIFT to suppress preview. Monophonic patches play one note, polyphonic patches play a chord. Preview is suppressed while recording.\n\n#### Added MIDI settings\n\n*   Use orange pads on settings screen (power unit with Shift key pressed) to toggle CC RX (left pad) and CC TX (right pad) separately to other MIDI messages.\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 5,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3370,
+            "version": "1.4",
+            "release_notes": "\n#### Drum Pattern Length\n\n*   You can now customise your drum pattern lengths from 1-16\\. This opens up new possibilities in time signatures and evolving rhythms\n*   Drum parts 1\u00262 and 3\u00264 share the common pattern length respectively, letting you apply two independent time signatures. These run entirely independently of your synth pattern lengths\n\n#### Instant Pattern switching\n\n*   Change patterns on the fly. Hold down SHIFT while selecting a pattern or pattern chain and instantly jump to it on the next step. Pair this with automations to glitch out and remix your tracks in real time!\n\n#### Session colouring on Circuit\n\n*   Give your sessions a visual identity without needing to connect to your computer. Change the colour of your session by pressing SAVE in Sessions View and turn Macro Knob 1 to select your Session’s colour\n\n#### MIDI Clock settings\n\n*   Link up your circuit with the rest of your hardware in seconds. Hold down SHIFT on boot up and you’ll see two new toggle selections on the right in blue. On the left of these pads you can toggle Clock RX (OFF = Internal, ON = Auto), the right pad toggles the clock TX!\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 6,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3304,
+            "version": "1.3",
+            "release_notes": "\n#### Sample Flip\n\n*   You can now switch samples in real time! This is massive because it means that you can now use all 64 of your samples on each drum part and switch them on any step\n*   You can also audition samples by tapping pads in drum patch View. Each pad will play the sample as well as select it, and everything you do in here can now be recorded in real time. This is seriously powerful especially when you have loaded your own samples\n\n#### Infinite Envelope\n\n*   To enhance the sample playback we have added an unlimited envelope length option - Turn the envelope control all the way to the right and your loops will no longer fade\n\n#### Organising Sessions\n\n*   You can now colour your sessions to group them together and to easily identify what you have saved where\n\n#### Sample Automation\n\n*   Changing drum selection no longer resets drum macros so you can play and record automation while changing samples\n*   We’ve added the ability to reset drum macros using the CLEAR button. Hold CLEAR and turn a macro knob left to clear automation as before, and right to reset the macro to it's default value\n\n#### Performing with Muted Tracks\n\n*   You can now play drum steps in velocity view even when a drum track is muted. This means you can hear the automation and sample changes as you perform the steps in real time\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 84,
+            "product": "bsii",
+            "firmware_type": "firmware",
+            "build": 696,
+            "version": "4.15",
+            "release_notes": "Added Components AFX overlay editor support.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/84/file"
+        },
+        {
+            "id": 148,
+            "product": "launchkey-88",
+            "firmware_type": "firmware",
+            "build": 23,
+            "version": "1.1.2",
+            "release_notes": "Bug fixes",
+            "technical_release_notes": "Fixes an issue where additional notes would occur from the arpeggiator when syncing to an external clock\r\nResolved an issue causing the Octave down LED to light when holding Shift whilst working in a DAW",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/148/file"
+        },
+        {
+            "id": 7,
+            "product": "circuit",
+            "firmware_type": "firmware",
+            "build": 3195,
+            "version": "1.2",
+            "release_notes": "\n#### Play with Other Controllers.\n\n*   Record MIDI notes from external instruments plugged into Circuit: either chromatically, or tuned depending on your choice of key and scale\n*   Manipulate Circuit’s macro controls from an external MIDI controller and record as automation. You can even use your iPad\n\n#### Play with Ableton.\n\n*   Automatically sync Circuit up with Live and easily record MIDI from your session – in tempo, in time, in key – with just a few clicks. You can even record your MIDI tracks from Ableton in one key and change it later in two button presses onboard Circuit\n\n#### Momentary Record.\n\n*   Hold record, punch in and overdub notes or macros without losing your flow - or accidentally breaking your existing work\n\n#### Step Edit.\n\n*   Even easier step-by-step automation: have a different pitch on your drums for each hit. Add FX to one note in a sequence. With the potential for a different sound on every step for every track, you don’t need to do the maths to know that adds up to unimaginable potential – for deliberate creativity or happy accidents\n\n#### External Preset Select.\n\n*   Remotely switch the sound of either of Circuit’s two synths on the fly using MIDI program change messages. Remotely switch the sound of any of Circuit’s four drums on the fly using MIDI CC messages. From any MIDI source\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 8,
+            "product": "monostation",
+            "firmware_type": "firmware",
+            "build": 800,
+            "version": "1.2",
+            "release_notes": "#### Patch Flip\n\n*   Live record patch changes into your sequence. Press RECORD during playback and select a patch on the Patches View to record a patch flip; hold SHIFT to record the change without playing a note\n*   Edit Patch Flips: While stopped, press record and select a step. Then go to the Patches View to see if a patch is assigned or select a new patch to assign the patch to the selected step. Press CLEAR + PATCHES to clear patch flips for the entire pattern or do this while in step edit mode to remove patch flips from the current step only\n\n#### Use mod sequence note page as a dedicated CV sequencer\n\n*   We’ve added a new independent sequencer to Circuit Mono Station. You can now record notes to the Mod Seq track and use this to control your CV/gate devices\n*   With the addition of the new track, you can now also select which track sends to the CV/gate output: press SHIFT + SESSIONS to select between Osc 1, Osc 2 and the new Mod Sequence track\n*   Note, for compatibility Osc 1 is selected by default, so this setting does need to be changed in order for the new Mod Seq track to be used to control CV/gate\n\n#### Key Sync'd LFOs\n\n*   LFO Key Sync and LFO Clock Sync can now be controlled independently: Press the SYNC button in the LFO section to toggle the Clock Sync and press SHIFT + PITCH in the mod matrix section to toggle the LFO Key Sync\n\n#### Re-Trigger / Legato Envelopes\n\n*   Press SHIFT + PWM in the mod matrix section to toggle the Envelope Trigger Mode; DIM means the envelope will not retrigger when notes overlap, BRIGHT means the envelope will retrigger with each note on\n",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/8/file"
+        },
+        {
+            "id": 9,
+            "product": "monostation",
+            "firmware_type": "firmware",
+            "build": 745,
+            "version": "1.1",
+            "release_notes": "\n\n#### Step Automation\n\n*   While stopped, press record and select a step. You can then move controls on the synth to add automation to the selected step\n\n#### Initialise Patch\n\n*   We have added a quick way of getting an init patch. Press Shift and Patches and all current synth settings will be set to default values giving you a simple starting point for building a new patch\n\n#### Reset Mod Depth\n\n*   This provides a really quick way to reset mod depth to zero. Simply hold clear and turn the mod depth clockwise\n\nThe following can be found on the Settings View (Hold Shift while powering on):\n\n#### Clock Output Rates\n\n*   Circuit Mono Station now supports multiple clock output rates of 1, 2, 4, 8 and 24 PPQN for greater compatibility with other gear\n\n#### Pot Pickup\n\n*   With this setting enabled pots will not send data until they are moved past their saved positions to avoid parameter jumps\n\n#### CC RX/TX\n\n*   You can now set whether Circuit Mono Station receives or transmits controller data so that other gear is only affected when you want it to be\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 10,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 352,
+            "version": "1.2",
+            "release_notes": "Peak is without doubt the most powerful synth we’ve ever created, and since its launch 18 months ago, users around the world have let us know ways in which they reckon we could make it even better. For the Peak Firmware 1.2 update, we’ve made your most frequently requested features reality, and added 178 presets by Patricia Wolf and GForce software. It’s available now in the Components content manager.\n\n#### New wavetables\n\n*   43 new wavetables have been added to the Wave menus, hugely increasing the range of the synth at the oscillator level.\n\n#### Much more modulation\n\n*   With two newly added non-voice-specific LFOs (for a total of four), and Pitch-Bend now also available as a modulation source, you can bring more movement to your Peak patches than ever before. The envelopes, meanwhile, see the addition of a Hold stage (up to 500ms) and the ability to loop between the Attack and Decay stages.\n\n#### Redesigned Mod Matrix\n\n*   Your most requested new feature was an overhaul of Peak’s Mod Matrix, and now, with sources and destinations presented on the same page, the days of toggling between them to make and edit assignments are over. And as a knock-on benefit, the Page button now enables quick access to all 16 modulation slots.\n\n#### FX modulation\n\n*   Peak 1.2 adds a new four-slot FX Mod Matrix, in which non-voice-specific modulation sources are routed to FX parameters. Now you can, for example, expand and contract a reverb with a rhythmic LFO.\n\n#### Initialise Manual Mode\n\n*   With Peak 1.2, you can keep the current positions of all knobs and sliders when the Initialise button is pressed if you choose to, rather than resetting their parameters to defaults – ideal for getting instantly hands-on with new patches, and creating random ones from scratch.\n\n#### Get ‘between the notes’ with microtuning\n\n*   Peak 1.2 also adds support for microtuning and Scala table import, with 16 Tuning Tables available for saving and recall within any patch, and automatic note selection making MIDI note-to-pitch assignment effortless.\n\n#### Inspirational new presets\n\n*   A new soundpack by Patricia Wolf and soundbank by GForce Software add 178 presets to your library, showcasing the new features of Peak 1.2\\. Both are available for free in Components.\n\nReaching new heights of programming versatility and sound design potential, Peak’s 1.2 firmware update is available now as a free download in the Components content manger.\n",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/10/file"
+        },
+        {
+            "id": 11,
+            "product": "peak",
+            "firmware_type": "fpga",
+            "build": 353,
+            "version": "1.2",
+            "release_notes": null,
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/11/file"
+        },
+        {
+            "id": 12,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 262,
+            "version": "1.1",
+            "release_notes": "#### Volume Range\n\n*   In this firmware update we have implemented a ‘Volume Range’ setting that attenuates the output by 0 dB, -3 dB (default) or -6 dB. We have also re-balanced the factory patches and created a new version 1.1\\. Used together with the new firmware this guarantees that your factory patches will not clip, even with the master volume at full and triggering 8 notes at maximum velocity.\n\n    Please note: This will make your factory patches quieter. If you prefer things ‘hotter’ you can set the ‘Volume Range’ to 0 dB (zero dB attenuation).\n\n    If you do set Volume Range to 0 dB then any patches you have created will sound the same as before the firmware update.\n\n#### FM Level\n\n*   In this firmware the FM paths have been increased by four times to allow this to have a far greater effect. This will change how your patches sound if they use FM.\n\n    Don’t worry though, we have made adjustments in factory patches v1.1 so you can update them to how they originally sounded.\n\n#### Updated Factory patches\n\n*   We have adjusted the factory patches to work with this update. We advise you use Components to download the new factory patches V1.1 ( [Bank A](/peak/factorybanks/1) , [Bank B](/peak/factorybanks/2) ) to your Peak after updating.\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 14,
+            "product": "bsii",
+            "firmware_type": "firmware",
+            "build": 673,
+            "version": "4.14",
+            "release_notes": "\nThe latest firmware update for Bass Station II adds five powerful and innovative new features to Novation’s hugely popular monosynth, all of them developed in response to user feedback and requests, one of those users being particularly noteworthy…\n\n#### AFX Mode\n\n*   Electronic music legend Richard James, aka Aphex Twin, has already played an instrumental part in the Bass Station II story, having provided guidance for the implementation of the micro-tuning added with Firmware v2.5\\. His conceptual contribution to v4.14 is even more profound, however – hence the version number and release date, which pays homage to the Aphex Twin track ‘Avril 14th’.\n\n    Letting his imagination run riot, James envisioned the decidedly radical notion of having a discrete set of synthesis parameters assigned to each note of Bass Station II, either variations on a ‘seed’ patch, or disparate sounds designed to constitute a chimeric whole. Although this sort of thing could already be kludged using very fast program change messages, having multiple sounds active at the same time would clearly be a far more creative and efficient system.\n\n    AFX Mode is the realisation of James’ out-there concept. Put simply, it lets you modify your Bass Station II patch on a key-by-key basis. Use it to introduce subtle changes to a sound as you play up and down the keyboard; divide the keyboard into multiple zones (one per key if you like!), each playing its own sound; or create entire drum kits in a single preset for triggering manually or via the Arpeggiator. It’s a truly inspiring feature that really does open up a whole new world of sound design and performance possibilities.\n\n#### Fixed Duration Sustain Envelopes\n\n*   Aiding in the programming of drum sounds and plucks especially, the sustain segments of Bass Station II’s envelopes can now be set to a fixed length, moving on to the release stage regardless of when the key or trigger is actually released after playing a note. When fixed duration envelopes are enabled, the decay stage is taken out of play, and the Decay slider instead sets the duration of the Sustain stage.\n\n#### Sub Oscillator Detune\n\n*   With Firmware v4.14, Bass Station II’s sub-oscillator, slaved to the pitch of Oscillator 1, can be detuned using the Coarse and Fine controls. Now you can set the sub to any non-octave tracking interval you like, and knock it out of tune – subtly or dramatically – for creative effect.\n\n#### Oscillator Glide Diverge\n\n*   Prior to Firmware v4.14, both of Bass Station II’s oscillators could only be set to the same Glide time, but now you can slow down the Glide time of Oscillator 2 relative to Oscillator 1 by a variable amount, causing the two to diverge for interesting portamento effects. Just the thing for adding thickness and character to basslines, pads and leads, and certainly not a function you’ll find on many other hardware or software synths.\n\n#### Envelope Retrigger Count\n\n*   The Firmware v2.5 update added envelope retriggering, and now, to help with drum synthesis, the number of times the envelopes retrigger can be adjusted.\n",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/14/file"
+        },
+        {
+            "id": 15,
+            "product": "bsii",
+            "firmware_type": "firmware",
+            "build": 605,
+            "version": "2.5",
+            "release_notes": "#### Paraphonic mode\n\n*   Bass Station II is now a paraphonic monosynth, because the pitches of each of the two oscillators can be controlled separately in its single-voice architecture. Two notes can be played at a time rather than just one, and users can get interesting interactions through the Ring and Filter Mod. [Demystify 'Paraphonic'](https://medium.com/novation-notes/synth-syntax-demystifying-paraphonic-a031ebd2727)\n\n#### Filter tracking\n\n*   Filter tracking was one of the most requested features. The filter includes variable keyboard tracking in Bass Station II v2.5 – the best for matching higher notes to increased brightness.\n\n#### Envelope retriggering\n\n*   Bass Station II's secret sound-design weapon is envelope retriggering. It’s now possible to configure envelopes to retrigger once the decay stage has ended, opening up a whole range of new possibilities.\n\n#### Oscillator error\n\n*   Oscillator error introduces a small and adjustable random detune on each note-on event. This can be used to generate some very beautiful, subtle (or not) musical dissonance, very much in the same way that vintage synths did (because of the looser tolerance of their electronic components). Paraphonic mode makes it as dramatic as possible.\n\n#### Microtuning editing\n\n*   The frequency triggered by each key press can be completely controlled, giving scales another dimension.\n\n#### New presets\n\n*   Two new Soundpacks are in Components: Silver and Sinevibes. Silver's presets explore the v2.5 features and inspire new tracks and sound design. Sinevibes, designed by Sinevibes’ founder Artemij Pavlov, gives 101 classic Bass Station II presets.\n\n#### Warm greetings\n\n*   Bass Station II can now support a custom message display at start-up.\n",
+            "technical_release_notes": null,
+            "url": null
+        },
+        {
+            "id": 16,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 363,
+            "version": "1.2.1",
+            "release_notes": "#### Bugfix\r\n\r\nWe fixed a bug that meant the FX section was muted in occasional cases.\r\n\r\n---",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/16/file"
+        },
+        {
+            "id": 17,
+            "product": "bsii",
+            "firmware_type": "firmware",
+            "build": 675,
+            "version": "4.14.19",
+            "release_notes": "Bug fix for saving to slot 104.",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/17/file"
+        },
+        {
+            "id": 21,
+            "product": "summit",
+            "firmware_type": "firmware",
+            "build": 143,
+            "version": "1.0.1",
+            "release_notes": "- Addressed an issue with using aftertouch in Multi Mode\r\n\r\n- Looping envelopes now set to On when initialised\r\n\r\n- Ability to change Single/Multi mode with MIDI - NRPN 62:0 [From Single to Multi is on channel 1 by default (or whichever is the global channel), and from multi to single is on channel 2/3 by default (or whichever the multi parts are assigned to)].\r\n\r\n- LFOs 3/4 waveform show correct button LED after menu or midi change\r\n\r\n- Fixing the settings menu numbering\r\n\r\n- Added Centre Detent Calibration for controls - Set all bipolar pot controls (All Oscillator controls plus LFO 1 Depth and Envelope Depth in filter section) to their centre positions and press 'Go' on page 10/16 in the main settings menu",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/21/file"
+        },
+        {
+            "id": 13,
+            "product": "sl-mkiii",
+            "firmware_type": "firmware",
+            "build": 350,
+            "version": "1.1",
+            "release_notes": "Releases the full functionality of your SL MkIII and allows it to be used with Components.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/13/file"
+        },
+        {
+            "id": 22,
+            "product": "summit",
+            "firmware_type": "fpga",
+            "build": 618,
+            "version": "1.0",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/22/file"
+        },
+        {
+            "id": 24,
+            "product": "summit",
+            "firmware_type": "firmware",
+            "build": 88,
+            "version": "1.0",
+            "release_notes": "Initial Release",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/24/file"
+        },
+        {
+            "id": 27,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 236,
+            "version": "1.0",
+            "release_notes": "Initial Release",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/27/file"
+        },
+        {
+            "id": 30,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 341,
+            "version": "1.0.2",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/30/file"
+        },
+        {
+            "id": 29,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 313,
+            "version": "1.0.1",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/29/file"
+        },
+        {
+            "id": 25,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 289,
+            "version": "1.0.2",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/25/file"
+        },
+        {
+            "id": 26,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 238,
+            "version": "1.0.1",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/26/file"
+        },
+        {
+            "id": 28,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 281,
+            "version": "1.0",
+            "release_notes": "Initial Release",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/28/file"
+        },
+        {
+            "id": 19,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 255,
+            "version": "1.0.1",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/19/file"
+        },
+        {
+            "id": 20,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 258,
+            "version": "1.0.2",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/20/file"
+        },
+        {
+            "id": 23,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 259,
+            "version": "1.0.3",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/23/file"
+        },
+        {
+            "id": 72,
+            "product": "sl-mkiii",
+            "firmware_type": "firmware",
+            "build": 375,
+            "version": "1.3",
+            "release_notes": "We’re excited to bring an important new feature to the SL MkIII range of MIDI keyboard controllers. New in firmware v1.3 is unquantised recording, which brings new flexibility and musicality to the built-in sequencer.\r\n\r\nIn the previous firmware version, we introduced micro-step editing, allowing users to position notes off the grid for subtle timing variations. With unquantised recording, users have the ability to record into these micro-steps. This means that the organic, human quality of performances and punched-in beats can be captured in all their wonky glory.",
+            "technical_release_notes": "Features\r\n\r\n* Implemented Non-quantised Record. Press Shift+Record to toggle step quantisation. When step-quantisation is disabled, notes recorded during playback will be recorded to the nearest tick (1-6) of a step.\r\n\r\n\r\nFixes\r\n\r\n* Improved arp/sequencer stability during MIDI DIN output.\r\n\r\n* Notes were sometimes recorded with a gate length of 32 steps after transport was running for a while (12 minutes).\r\n\r\n* Fixed stuck notes when removing notes from step while track is muted and sequencer is playing.\r\n\r\n* Step auditioning while sequencer is running now only active when track is muted but not soloed.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/72/file"
+        },
+        {
+            "id": 33,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 348,
+            "version": "1.0.3",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/33/file"
+        },
+        {
+            "id": 34,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 404,
+            "version": "1.0.3",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/34/file"
+        },
+        {
+            "id": 68,
+            "product": "launchpad-pro-mk3",
+            "firmware_type": "firmware",
+            "build": 385,
+            "version": "1.0",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/68/file"
+        },
+        {
+            "id": 69,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 270,
+            "version": "1.0.4",
+            "release_notes": "",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/69/file"
+        },
+        {
+            "id": 70,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 407,
+            "version": "1.0.4",
+            "release_notes": "This update introduces Legacy Mode. Legacy Mode matches the User layout from previous generations of Launchpad.\r\n\r\nLegacy Mode may be accessed by entering the Setup Menu (hold Session button), then pressing the purple Scene Launch button on the right hand side of the device. Now press Session to enter Legacy Mode. All buttons and pads will be unlit and may be lit via MIDI messages (see detailed release notes for layout).\r\n\r\nSimilar to Programmer Mode, there is no access to Ableton Live functionality and Custom Modes when in Legacy Mode.\r\n\r\nTo regain access to all of Launchpad Mini’s main functionality, switch to Live Mode by pressing the green Scene Launch button in the setup menu.\r\n\r\nThis update introduces Legacy Mode. Legacy Mode matches the User layout from previous generations of Launchpad.\r\n\r\nLegacy Mode may be accessed by entering the Setup Menu (hold Session button), then pressing the purple Scene Launch button on the right hand side of the device. Now press Session to enter Legacy Mode. All buttons and pads will be unlit and may be lit via MIDI messages (see detailed release notes for layout).\r\n\r\nSimilar to Programmer Mode, there is no access to Ableton Live functionality and Custom Modes when in Legacy Mode.\r\n\r\nTo regain access to all of Launchpad X’s main functionality, switch to Live Mode by pressing the green Scene Launch button in the setup menu.\r\n\r\nLow-level notes:\r\n\r\nLegacy Mode Added. Access with purple Scene Launch button in Setup Menu.\r\n \r\n- 8x8 grid and buttons match layout of User Mode from previous generations of Launchpad.\r\n\r\n- 8x8 grid in Drum Rack Layout. Send Note Numbers 36-99 on press, and may be lit with same Note Numbers. Velocity determines colour.\r\n\r\n- Top row of buttons send CCs 91-98 (left to right) on press, and may be lit with same CC messages. Alternatively, the top row may be lit with Note Numbers 28-35 (left to right). Velocity or CC value determines colour. The logo may be lit with CC 99 or Note Number 27.\r\n\r\n- Right column of buttons send Note Numbers 100 to 107 (top to bottom) on press, and may be lit with same Note Numbers. Velocity determines colour.",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/70/file"
+        },
+        {
+            "id": 18,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 254,
+            "version": "1.0",
+            "release_notes": "Original factory firmware.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/18/file"
+        },
+        {
+            "id": 132,
+            "product": "peak",
+            "firmware_type": "fpga",
+            "build": 439,
+            "version": "2.0",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/132/file"
+        },
+        {
+            "id": 71,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 351,
+            "version": "1.0.4",
+            "release_notes": "This update introduces Legacy Mode. Legacy Mode matches the User layout from previous generations of Launchpad.\r\n\r\nLegacy Mode may be accessed by entering the Setup Menu (hold Session button), then pressing the purple Scene Launch button on the right hand side of the device. Now press Session to enter Legacy Mode. All buttons and pads will be unlit and may be lit via MIDI messages (see detailed release notes for layout).\r\n\r\nSimilar to Programmer Mode, there is no access to Ableton Live functionality and Custom Modes when in Legacy Mode.\r\n\r\nTo regain access to all of Launchpad X’s main functionality, switch to Live Mode by pressing the green Scene Launch button in the setup menu.\r\n\r\nLow-level notes:\r\n\r\nLegacy Mode Added. Access with purple Scene Launch button in Setup Menu.\r\n \r\n- 8x8 grid and buttons match layout of User Mode from previous generations of Launchpad.\r\n\r\n- 8x8 grid in Drum Rack Layout. Send Note Numbers 36-99 on press, and may be lit with same Note Numbers. Velocity determines colour.\r\n\r\n- Top row of buttons send CCs 91-98 (left to right) on press, and may be lit with same CC messages. Alternatively, the top row may be lit with Note Numbers 28-35 (left to right). Velocity or CC value determines colour. The logo may be lit with CC 99 or Note Number 27.\r\n\r\n - Right column of buttons send Note Numbers 100 to 107 (top to bottom) on press, and may be lit with same Note Numbers. Velocity determines colour.",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/71/file"
+        },
+        {
+            "id": 32,
+            "product": "sl-mkiii",
+            "firmware_type": "firmware",
+            "build": 371,
+            "version": "1.2",
+            "release_notes": "The latest firmware for the SL MkIII rewards users’ patience (thank you for bearing with us) with the addition of your most asked-for new features and workflow enhancements, making our flagship controller keyboard for Ableton Live (and other DAWs) more powerful and versatile than ever. SL MkIII 1.2 also, of course, squashes a few bugs and improves general stability.",
+            "technical_release_notes": "Features\r\n\r\n* Edit micro steps - Each step of the sequencer now features 6 smaller micro steps for greater resolution of the sequencer, accessed by pressing Options when in Steps view.\r\n\r\n* Improved knob responsiveness - Addressed an issue where data from controls was not outputting correctly.\r\n\r\n* Custom messages from aftertouch  - You can now use Components to change the MIDI message sent when applying aftertouch to keypresses.\r\n\r\n* Full NRPN compatibility - Components features new NRPN options to allow for extended compatibility with external gear.\r\n\r\n* Blocks on far right screen to indicate pattern chain and playing pattern - The right hand screen now features a display showing the queued patterns and the active pattern.\r\n\r\n* Up/down buttons scroll through patterns in step view - Pressing the up and down buttons to the left of the pads when in steps view will take you to the pattern before (up) or after (down).\r\n\r\n* Turn off part LEDs from global menu - Part LEDs can be turned off so that the lights above the keys are no longer on when they are not pressed.\r\n\r\n* Pattern row number notification - When you move through patterns using the left arrow up/down buttons, the 5th screen now tells you which part is visible.\r\n\r\n* Momentary record - Hold record while the sequencer is playing to add to the recording and release to stop recording but continue playback.\r\n\r\n* Enhanced menu navigation - The InControl, Global, and Tempo buttons can now be pressed a second time to return to the menu previously used.\r\n\r\n* Max gate of 32 steps - Steps can now be as long as 32 steps, allowing them to be longer than a duration of a pattern.\r\n\r\n* Play auditioned notes while part is muted and sequencer is playing - When a part is muted and the sequencer is playing, it's steps can still be pressed to hear them.\r\n\r\n* Preview control names - You can now hold shift and move a control to see the control name without sending any MIDI.\r\n\r\n* Pattern view follows part selection - When in the patterns view, selecting a part will change the patterns shown on the pads.\r\n\r\n* Name of track rather than number to select arp part - When in the Arp menu the Part selector will now show the Part name.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/32/file"
+        },
+        {
+            "id": 75,
+            "product": "launchpad-pro-mk3",
+            "firmware_type": "firmware",
+            "build": 450,
+            "version": "1.1.1",
+            "release_notes": "\r\n\r\nFixed certain devices not reaching the maximum velocity value\r\n\r\nVarious bug fixes and stability improvements.\r\n\r\n---------",
+            "technical_release_notes": null,
+            "url": "https://components.novationmusic.com/api/v2/firmwares/75/file"
+        },
+        {
+            "id": 74,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 397,
+            "version": "1.3",
+            "release_notes": "#### User Wavetables\r\n*   10 new user configurable wavetable slots have been added to the end of the more wave list in the oscillator menu.\r\n*   Use the wavetable editor in Components to design, store, and manage the user created wavetables, then load them into Peak.\r\n*   Save the received user wavetables by going to page 9 of the oscillator menu.\r\n\r\n#### Octave Tuning Mode\r\n*   In Octave Tuning Mode, changing the tuning of a note cascades that detune across all octaves of the keyboard. ",
+            "technical_release_notes": "Firmware Updater 1.3 (Firmware revision 397, FPGA revision 353)\r\n\r\n\u003cbr\u003eNew Features:\r\n- User wavetables.\r\n- Octave tuning mode.\r\n\r\n\u003cbr\u003eKnown Issues:\r\n- Key latch illumination while sustain held.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/74/file"
+        },
+        {
+            "id": 83,
+            "product": "launchpad-pro-mk3",
+            "firmware_type": "firmware",
+            "build": 465,
+            "version": "1.2.1",
+            "release_notes": "In V1.2.1 the layout of Legacy Mode has been updated to reflect that of Launchpad X and Mini [MK3].\r\n\r\nIn Legacy Mode, the top row of buttons will now light according to incoming note messages. The note indexes for the bottom row of buttons have been shifted down to allow for the top row to match Launchpad X and Mini [MK3]. Due this change, projects created for Legacy Mode in V1.2 must be updated to work correctly with the new layout.\r\n\r\nFurthermore, Legacy Mode will now respond to SysEx messages for lighting LEDs. \r\n\r\nSee the Technical Release Notes and the V1.2.1 User Guide Addendum for more detail.",
+            "technical_release_notes": "Release notes for Firmware Update 1.2.1(firmware revision 465)\r\n\r\nNew Features:\r\n- LEDs in Legacy Mode can be lit via SysEx messages. The message format and led indexes for these messages are identical to the ones for Programmer Mode. See the Programmer Reference guide for more information.\r\n\r\nFixes:\r\n- Fixed LED indexes for Legacy Mode when lighting LEDs via Note/CC messages. The top row of buttons can now be controlled with note messages with indexes 28-35 and the Shift and Logo LED can be controlled with note messages with indexes 26 and 27 respectively. The bottom row of buttons can be controlled with note messages with indexes 12-19. These changes ensure compatibility with both Launchpad Pro MK1 and Launchpad X/Mini. See the Programmer Reference guide for more information.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/83/file"
+        },
+        {
+            "id": 73,
+            "product": "summit",
+            "firmware_type": "firmware",
+            "build": 149,
+            "version": "1.1",
+            "release_notes": "#### User Wavetables\r\n*   10 new user configurable wavetable slots have been added to the end of the more wave list in the oscillator menu.\r\n*   Use the wavetable editor in Components to design, store, and manage the user created wavetables, then load them into Summit.\r\n*   Save the received user wavetables by going to page 9 of the oscillator menu.\r\n\r\n#### Octave Tuning Mode\r\n*   In Octave Tuning Mode, changing the tuning of a note cascades that detune across all octaves of the keyboard. ",
+            "technical_release_notes": "Firmware Updater 1.1 (Firmware revision 149, FPGA revision 618)\r\n \r\n\u003cbr\u003e\u003cbr\u003eNew Features:\r\n- User wavetables.\r\n- Octave tuning mode.\r\n\r\n\u003cbr\u003eFixes:\r\n- Added pot calibration.\r\n- Fixed arp behaviour when changing between local modes. \r\n \r\n\u003cbr\u003eKnown Issues:\r\n- Key latch illumination while sustain held.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/73/file"
+        },
+        {
+            "id": 76,
+            "product": "sl-mkiii",
+            "firmware_type": "firmware",
+            "build": 384,
+            "version": "1.4",
+            "release_notes": "The v1.4 firmware update for our flagship SL MkIII range of controller keyboards brings immense new composition and performance features, which greatly expand its capabilities. \r\n\r\nThe new features give SL MkIII users expanded arpeggiators, new sequencer functions, deeper swing control, and creative transposition features. All the new features are designed intentionally to bring greater creative flexibility and possibilities to the SL MkIII user, and to be a constant source of inspiration throughout the music-making journey.",
+            "technical_release_notes": "Features\r\n\r\n* Number of arpeggiators increased to eight (one for each part). Settings for each arpeggiator can be set individually from the Arp Settings menu. \r\n\r\n* Arp Chance – Set the probability for any of the eight arpeggiators in the Arp Settings menu from 0% to 100%. Arp Chance determines the chance that the next step in the arpeggiator sequence will play or be skipped.  \r\n\r\n* Sequencer Step Chance - You can now set the chance/probability for each step in the pattern. For example, when a step has a chance of 50% then there is an equal chance that either all or none of the notes on that step will be played. Press Options while in the Steps View to access the Chance menu. Also note that when chance is set to 0% the step is effectively disabled.  \r\n\r\n* Adjust velocity, gate or chance for all steps at once - While in the Velocity, Gate or Chance menu, hold SHIFT to set the value for all steps in the current pattern with the first encoder. This allows for quickly adjusting the velocity, gate or chance values for the entire pattern. (Steps with no notes assigned will not be affected). \r\n\r\n* Pattern Transpose - While in the Steps View, hold SHIFT and press the UP arrow next to the pads to transpose all notes in the current pattern an octave up. Similarly, press the DOWN arrow to transpose all notes an octave down. Also note that the transposition will not take effect if it would cause any notes to exceed the MIDI note range. \r\n\r\n* Enable/disable swing per track - Swing can now be enabled or disabled for each track individually on the second page of the Tempo menu. When swing is set to ‘Off’ for a track then sequencer and arpeggiator events for that track will not follow a swung timing. Instead it will follow a regular clock timing (equal to the default swing setting of 50%). This information is stored to the current session when the session is saved. \r\n\r\n* Pattern Shift - Applies a nudge to all steps in the current pattern. The shift can be set on the Pattern Settings menu. A value between 0 and 15 indicates how many steps the pattern has been shifted since it was first created. \r\n\r\n* Sequence Transpose with pads - The sequence transposition in the Scale Settings menu can now be controlled in a more performable way by using the pads. By default, the pads display a Circuit style chromatic keyboard and allow you to set the transposition to any semitone offset in the range of 0 to 11 semitones. Use the DOWN arrow button next to the pads to access the negative transposition offset in the range -11 to 0 semitones. \r\n\r\n* Pitch Bend to CV - Both CV outputs now react to the pitch bend wheel. You can set the range of pitch bend on the second page of the Global menu from +/- 1 semitone to +/- 12 semitones.\r\n\r\n\r\nFixes\r\n\r\n* Fixed issue with DAW integration (Logic, Pro Tools) where screens were not updated properly by improving handling of large quantities of SysEx messages on the USB MIDI input.\r\n\r\n* Fixed handling of System Real-time MIDI messages embedded in SySex messages on the DIN MIDI input causing stuck notes in some hardware synths.\r\n\r\n* Fixed bug where certain notes could sometimes not be assigned to a step.  \r\n\r\n* Fixed bug where Snap Mode from the Scale Settings menu could result in more note on messages being sent than note off messages causing stuck notes in some hardware synths.  \r\n\r\n* Fixed bug where notes from the arpeggiator would turn off early on slow arp sync rates. ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/76/file"
+        },
+        {
+            "id": 133,
+            "product": "summit",
+            "firmware_type": "firmware",
+            "build": 232,
+            "version": "2.0",
+            "release_notes": "* Pan control added to Voice menu.\r\n\r\n* 3 new Stereo Spread modes available in the Voice menu: Alternate, Diverge 2, NoteVal.\r\n\r\n* New Mod Matrix Destinations:\r\n\t* Pan \r\n\t* Oscillator 123 shape\r\n\t* Amp Envelope Delay\r\n\t* Amp Envelope Hold\r\n\t* Amp Envelope Sustain\r\n\t* Mod1 Envelope Delay\r\n\t* Mod1 Envelope Hold\r\n\t* Mod1 Envelope Sustain\r\n\t* Mod2 Envelope Delay\r\n\t* Mod2 Envelope Hold\r\n\t* Mod2 Envelope Sustain\r\n\r\n* Aftertouch Scaling setting in the Settings menu to determine the force needed to fully trigger Aftertouch from Summit's keyboard.\r\n \r\n* A Patch Cue mode is now available in Settings. When on, patches won't load until confirmed by pressing Single or Multi.\r\n\r\n* Animate Envelopes. Attack and Release envelopes for each animate button found in the Envelope menu.\r\n\r\n* LFO 3+4 Additional parameters found in the LFO menu:\r\n\t* Phase\r\n\t* Slew\r\n\t* Fade in time\r\n\r\n* New FX Mod Destinations:\r\n\t* Reverb Size\r\n\t* Reverb Low Pass\r\n\t* Reverb High Pass\r\n\t* Delay Slew\r\n\t* Delay LF Damp\r\n\t* Delay HF Damp\r\n\t* Delay Width\r\n\t* Delay Ratio\r\n\t* LFO3 Rate\r\n\t* LFO4 Rate\r\n\t* Noise LPF\r\n\t* Noise HPF\t\r\n\r\n* Additional Chorus modes found in the FX menu:\r\n\r\n\t* Flanger\r\n\t* Phlanger - a flanger tuned to have phaser like effects\r\n\r\n* Delay Time Mode added to FX menu. Reduces sample rate of the delay to extend the max delay time available, as well as degrading the delay tone to emulate vintage digital / tape delays.\r\n\r\n* Noise added as a mod source.\r\n\r\n* Arp Chance added to arp menu to affect the probability of the arp playing the next step.\r\n\r\n* Chord2 mode added to arp. This interacts with arp chance on a per note basis. This means Chord and Chance can be used for entire Chord probability, while Chord2 can be used for probability of each note in a chord.\r\n\r\n* Additional Seq added to local modes. Local mode designed for use with an external sequencer: keys, wheel \u0026 aftertouch send MIDI and don't affect the engine, panel controls affect the engine and don't send MIDI.\r\n\r\n\r\n\r\nBug Fixes:\r\n\r\n* Fixed an issue where VCA gain controls did not affect voices 9-16 in Single mode (both via local and external MIDI control).\r\n\r\n* Modulation from LFO 3+4 now affects voices 9-16.\r\n\r\n* Sending performance data via external MIDI control (including Modulation Wheel, Breath, Expression, etc) now affects voices 9-16.\r\n\r\n* Fixed syncing issue with external MIDI clocks where it took a while to respond to clock correctly. \r\n\r\n* FM controls now send and respond to their NRPN messages:\r\n\tFM OSC3-\u003e1 Manual Amount NRPN 25:13 0-127 (0 to +127)\r\n\tFM OSC1-\u003e2 Manual Amount NRPN 25:17 0-127 (0 to +127)\r\n\tFM OSC2-\u003e3 Manual Amount NRPN 25:21 0-127 (0 to +127)\r\n\r\n* Fixed an issue where some front panel controls still had an effect on the engine when Local is Off.\r\n\r\n* Changed the way Aftertouch and other performance data from external MIDI is being received on the Global channel when using multi parts, such that: \r\n\tLayer Mode - Both parts respond to MIDI received on the Global Channel.\r\n\r\n\tSplit Mode - MIDI received on the Global Channel affects both engines in accordance with the split settings, for example, if the split point is \r\n\tC3, anything below C3 will affect part A and C3 and above will affect part B. \r\n\r\n\r\n\tDual Mode - MIDI received on the global channel affects the currently selected part - i.e. A, B, or Both. \r\n\r\n* Fixed an issue where patch location was displayed incorrectly when viewing single patches inside a Multi-Patch.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/133/file"
+        },
+        {
+            "id": 134,
+            "product": "summit",
+            "firmware_type": "fpga",
+            "build": 747,
+            "version": "2.0",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/134/file"
+        },
+        {
+            "id": 67,
+            "product": "launchpad-pro-mk3",
+            "firmware_type": "firmware",
+            "build": 440,
+            "version": "1.1",
+            "release_notes": "This update adds many features to complete the functionality of your Launchpad Pro MK3 and allows it to be used with Components. \r\n\r\n1. Clear micro step\r\n\r\nMicro steps can be cleared by holding Clear and pressing a micro step.\r\n\r\n\r\n2. Duplicate micro step\r\n\r\nMicro steps can be duplicated by holding Duplicate and pressing a micro step to copy it, then pressing another micro step to paste it there. All notes on a micro step will be copied unless the per step note limit of 8 notes is exceeded.\r\n\r\n\r\n3. Record external MIDI notes to sequencer\r\n\r\nNotes received on MIDI DIN and USB MIDI ports can be recorded into sequencer.\r\n\r\n\r\n4. Set custom mode master channel\r\n\r\nMaster channel for a Custom Mode can now be set on the hardware from the custom mode settings page (Shift + Custom).\r\n\r\n\r\n5. Programmer Mode added\r\n\r\nSupport for Programmer Mode which allows setting pad colours with midi messages\r\n\r\n\r\n6. Switch MIDI Out2 to Thru\r\n\r\nMIDI DIN Out2 port can now be set to act as a MIDI Thru port. If set to thru all messages received on MIDI DIN In will be directly sent from MIDI DIN Out2. \r\n\r\n\r\n7. Polyphonic Aftertouch\r\n\r\nPolyphonic Aftertouch will now be sent out from Note, Chord Mode and Custom Modes.\r\n\r\n\r\n8. Set LED brightness\r\n\r\nThe brightness of LEDs can be set from the Setup Menu\r\n\r\n\r\n9. LED Sleep\r\n\r\nLED sleep can be activated from the Setup Menu. All LEDs will be turned off until a button or pad is pressed. Vegas Mode will not activate while LED Sleep is active.\r\n\r\n\r\n10. Set project colour from Projects page\r\n\r\nPress Save to start a project save, then press one of the eight coloured soft buttons to set the colour for that project. Press Save again to confirm with the new colour. \r\n\r\n\r\n11. Set aftertouch threshold from Setup Menu\r\n\r\n\r\n12. Channel Pressure is now sent from Custom Modes\r\n\r\n\r\n13. Separate row overlaps for the scaled and chromatic versions of Note Mode**\r\n\r\n\r\n14. Various bug fixes and stability improvements.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/67/file"
+        },
+        {
+            "id": 81,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 399,
+            "version": "1.3.1",
+            "release_notes": "",
+            "technical_release_notes": "Firmware Updater 1.3.1 (Firmware revision 399, FPGA revision 353)\r\n\r\nFixes:\r\n* Some factory wavetables weren’t being built for some users.\r\n* Some user wavetables didn’t sound the same after powering on the unit.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/81/file"
+        },
+        {
+            "id": 78,
+            "product": "launch-control-mk1",
+            "firmware_type": "firmware",
+            "build": 139,
+            "version": "1.2",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/78/file"
+        },
+        {
+            "id": 80,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 160,
+            "version": "1.00",
+            "release_notes": "Original factory firmware.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/80/file"
+        },
+        {
+            "id": 82,
+            "product": "launchpad-pro-mk3",
+            "firmware_type": "firmware",
+            "build": 464,
+            "version": "1.2",
+            "release_notes": "Brand new in the free v1.2 firmware update for Launchpad Pro [MK3] are features that expand the creative and performance capabilities of the grid controller.\r\n\r\n\r\n1. Unquantised Recording\r\n\r\nWith the unquantised recording feature you may record directly to micro steps in the sequencer. This is great for capturing the organic feel of your live playing and getting your beats off-grid. Enable and disable Record Quantise by holding [Shift] and pressing the [Quantise/Record Quantise] button. Recording will be unquantised when the button is lit red.\r\n\r\n\r\n2. Performance Velocity, Probability and Mutation\r\n\r\nStep parameters may now be performed live, allowing you to get hands on with your sequences and create interesting and intricate rhythms on the fly. During playback, hold any value for one of these parameters to override the step's assigned value. This can be recorded to a pattern.\r\n\r\n\r\n3. Pad Trigger Threshold\r\n\r\nThe pressure required to trigger a pad may now be customised between four different options. That is, you may customise Launchpad Pro’s pads to respond to very light touches, or to be more forgiving to compensate for a heavier touch, triggering only when a pad is pressed harder. Select between the different thresholds in the velocity menu, accessed by holding [Setup] and pressing the second Track Select button. The four pads on the right-hand side represent the different options, with the lowest threshold on the left-hand side, and the highest on the right.\r\n\r\n\r\n4. Legacy Mode\r\n\r\nLegacy Mode re-introduces the User layout of the original Launchpad Pro. This brings a level of backwards compatibility that allows you to interface with legacy applications and lightshow performances designed for the original Launchpad Pro. To enter Legacy Mode, hold [Setup] and press the Scene Launch button labelled [Mutation]. Upon releasing [Setup], Launchpad Pro will be in Legacy Mode. To return to normal functionality, hold [Setup] and press the Scene Launch button labelled [Micro Step].",
+            "technical_release_notes": "New Features\r\n\r\n- Legacy Mode. To access Legacy mode press and hold Setup and press Mutation, then release both buttons. All buttons and pads will be unlit and may be lit via MIDI messages. The 8x8 grid of pads and buttons match the layout of User Mode from previous generations of Launchpads. See Programmer Reference guide for more information on the layout.\r\n\r\n- You can now record notes directly to microsteps. To toggle quantised recording on/off press shift + quantise. While shift is held the quantise button will be lit green when quantisation is enabled, and lit red when disabled (non-quantised). This choice will persist through session changes and power cycle.\r\n\r\n- Live performance of Mutate, Probability and Velocity. During playback press and hold a value in the mutation, probability or velocity fader to affect any played steps for the current track. Hold shift while doing so to affect all tracks simultaneously. Performing live mutate, probability or velocity while recording is enabled will cause that value to be recorded to any steps that are affected.\r\n\r\n- Set trigger threshold for pads. Press and hold Setup and go to the Velocity (2nd) settings page. On the left of the seventh row of pads there are four velocity presets for the trigger threshold from LOW (sensitive) to HIGH (less sensitive). This threshold determines how hard a pad needs to be pressed before a pad press is registered and also affects the sensitivity of the pads. By default this is set to LOW (most sensitive).\r\n\r\n\r\nFixes\r\n\r\n- Improvements to better handle large amounts of MIDI messages via the USB MIDI port.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/82/file"
+        },
+        {
+            "id": 79,
+            "product": "launch-control-xl-mk2",
+            "firmware_type": "firmware",
+            "build": 59,
+            "version": "1.2",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/79/file"
+        },
+        {
+            "id": 85,
+            "product": "circuit-tracks",
+            "firmware_type": "firmware",
+            "build": 3556,
+            "version": "1.0",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/85/file"
+        },
+        {
+            "id": 86,
+            "product": "circuit-tracks",
+            "firmware_type": "firmware",
+            "build": 3768,
+            "version": "1.1",
+            "release_notes": "This update should be installed to enable the full feature-set of Circuit Tracks. Please update to ensure you have the best experience using the device, both standalone and paired with Components.\r\n\r\n**Changes:**\r\n\r\n•\tWhen unplugged, powering on the device will display the battery charge level.\r\n\r\n•\tMany bugfixes (see Technical Release Notes for details)",
+            "technical_release_notes": "Bugfixes:\r\n\r\nDrum Tracks: \r\n\r\n•\tWhile a sample pad is held, other samples may now be triggered.\r\n\r\n•\tAssigning a sample to a step during playback no longer triggers the sample\r\n\r\n•\tPreviewing notes on drum track 2, 3 or 4 no longer triggers the wrong sample\r\n\r\n•\tWhen an individual sample is sent to the current pack, it can be played immediately.\r\n\r\n•\tPreviewing a drum step with micro steps now correctly follows pattern rate\r\n\r\n•\tDrum tracks now correctly send note off message when changing view\r\n\r\n•\tDrum choice now correctly clears from steps when deleting unselected pattern\r\n\r\n•\tLong pressing multiple steps no longer causes unexpected toggles on drum tracks\r\n\r\n\r\nSynth Tracks:\r\n\r\n•\tSynth 1 is no longer incorrectly triggered on start-up\r\n\r\n•\tChanging Synth 1 preset sometimes affected Synth 2 parameters\r\n\r\n•\tAdjusting mixer controls was occasionally causing glitches on Synth 1 \u0026 2\r\n\r\n•\tThe Components Synth editor no longer stops communicating with device after receiving a patch\r\n\r\n\r\nMIDI Tracks:\r\n\r\n•\tSide Chain now correctly functions for Input 2 (MIDI 2).\r\n\r\nMiscellaneous:\r\n\r\n•\tPacks sent to the device correctly adhere to colour chosen in Components\r\n\r\n•\tPack will now reload after a pack is sent to the currently loaded slot\r\n\r\n•\tLoading animation will show continuously when transferring content\r\n\r\n•\tMetronome will now correctly stop when transferring content via Components\r\n\r\n•\tClick volume has been increased\r\n\r\n•\tInput phase was incorrectly inverted\r\n\r\n•\tContrast between dim \u0026 bright colours increased\r\n\r\n•\tTurning encoders no longer reverts to previous view during a momentary view switch\r\n\r\n•\tProbability no longer incorrectly triggers individual microsteps\r\n\r\n•\tScene visual assignment now persists through power cycle\r\n\r\n•\tSaving while playback is active no longer heavily affects timing\r\n\r\n•\tMoving the master volume knob was incorrectly transmitting MIDI data\r\n\r\n•\tSave was incorrectly un-priming when plugging in or unplugging via USB-C\r\n\r\n•\tSeveral pad colours throughout the UI have been adjusted",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/86/file"
+        },
+        {
+            "id": 77,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 191,
+            "version": "1.01",
+            "release_notes": "Release day firmware featuring Custom Mode support, keystroke Navigation and improved HUI support.",
+            "technical_release_notes": "Features\r\n\r\n* Added Custom Mode configuration support.\r\n\r\n* Added Navigation mode providing keystrokes for easily selecting presets.\r\n\r\n* Improved HUI experience along with providing Solo and Mute controls, and on LK 49/61, Select and Arm.\r\n\r\nFixes\r\n\r\n* Fixed a bug where Arp Swing could erroneously be reported as -0% on the display.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/77/file"
+        },
+        {
+            "id": 149,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 425,
+            "version": "1.1.2",
+            "release_notes": "Bug fixes",
+            "technical_release_notes": "Fixes an issue where additional notes would occur from the arpeggiator when syncing to an external clock\r\nResolved an issue causing the Octave down LED to light when holding Shift whilst working in a DAW",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/149/file"
+        },
+        {
+            "id": 88,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 197,
+            "version": "1.1",
+            "release_notes": "Access inspired melodies with the first update to Launchkey [MK3], featuring Strum Mode.\r\n\r\nYou’ll find the Strum Mode function as the first of the three arpeggiator modes that are labelled with mysterious symbols. You can hold down notes and trigger Strum Mode by using the mod strip. For total sonic variation, you can also use Strum Mode alongside other arpeggiator modes.",
+            "technical_release_notes": "Features \r\n\r\n* Arpeggiator strum mode.\r\n\r\n* Fixed Chord notes increased to 12.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/88/file"
+        },
+        {
+            "id": 87,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 303,
+            "version": "1.1",
+            "release_notes": "Access inspired melodies and more customisable control in the first update to Launchkey Mini [MK3]. The v1.1 firmware update brings Strum Mode along with important and functional features that have been requested by the Novation community, all aimed to increase creativity in your music making sessions.\r\n\r\nYou’ll find the Strum Mode function as the first of the three arpeggiator modes that are labelled with mysterious symbols. You can hold down notes and trigger Strum Mode by using the mod strip. For total sonic variation, you can also use Strum Mode alongside other arpeggiator modes.",
+            "technical_release_notes": "Features\r\n\r\n* Arpeggiator strum mode.\r\n\r\n* Fixed Chord notes increased to 12.\r\n\r\n* Double tap to latch Shift, Arp, Fixed Chord.\r\n\r\n* LED brightness control.\r\n\r\n* MIDI clock toggle on/off.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/87/file"
+        },
+        {
+            "id": 89,
+            "product": "circuit-tracks",
+            "firmware_type": "firmware",
+            "build": 3891,
+            "version": "1.1.5",
+            "release_notes": "This update increases Circuit Tracks' sample time capacity from 60 seconds per pack to 196.6 seconds per pack. \r\n\r\nFurther to this, the synth engine has been optimised to reduce voice stealing in certain synth patches.\r\n\r\nFinally, we have added Sticky Shift. This function allows you to change Shift's behaviour from momentary to toggle. To enable Sticky Shift, enter Setup View and press Shift. Sticky Shift will be enabled when the Shift button is lit bright green. With Sticky Shift enabled, when Shift is pressed it will act as if it is held until it is pressed a second time.",
+            "technical_release_notes": "* Pack sample time capacity increased from 60 seconds to 196.6 seconds.\r\n\r\n* Maximum single-sample time increased to 98.3 seconds.\r\n\r\n* Voice stealing has been reduced in synth patches that make use of high v-sync, density, and attack values.\r\n\r\n* Sticky Shift toggle added in Setup View",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/89/file"
+        },
+        {
+            "id": 90,
+            "product": "circuit-rhythm",
+            "firmware_type": "firmware",
+            "build": 4799,
+            "version": "1.0",
+            "release_notes": "Circuit Rhythm factory firmware",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/90/file"
+        },
+        {
+            "id": 125,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 454,
+            "version": "1.0.5",
+            "release_notes": "- Launchpad Mini is now compatible with more USB-MIDI supporting hardware.\r\n- Custom Mode faders and CC pads now respond to incoming CCs.\r\n- Various lighting issues fixed in Custom Modes\r\n- Fixed an issue where notes may be sent out incorrectly\r\n- Improved clock sync at high bpm values.\r\n- When connected to a USB port that does not supply enough power, the Novation logo will light white instead of playing an animation on the pads.",
+            "technical_release_notes": "- The DAW port will now act identically to the MIDI port when not in DAW mode, allowing use with hardware that does not provide port selection capabilities.\r\n- Custom Mode faders and CC pads now respond to incoming CCs, adjusting position/lighting according to CC value.\r\n- Pads set to Trigger behaviour in Custom Modes now light during press.\r\n- Pads set to Toggle behaviour in Custom Modes now light correctly.\r\n- Pads set to Program Change in Custom Modes now light correctly.\r\n- External clock synchronisation has been improved at high bpm values.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/125/file"
+        },
+        {
+            "id": 126,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 408,
+            "version": "1.0.5",
+            "release_notes": "- Launchpad X is now compatible with more USB-MIDI supporting hardware.\r\n- When transposing notes in Note Mode, the left/right arrow keys will reset colour when a full octave has been transposed.\r\n- Custom Mode faders and CC pads now respond to incoming CCs.\r\n- Various lighting issues fixed in Custom Modes\r\n- Fixed an issue where notes may be sent out incorrectly\r\n- Improved clock sync at high bpm values.\r\n- When connected to a USB port that does not supply enough power, the Novation logo will light white instead of playing an animation on the pads.",
+            "technical_release_notes": "- The DAW port will now act identically to the MIDI port when not in DAW mode, allowing use with hardware that does not provide port selection capabilities.\r\n- When transposing notes in Note Mode, the left/right arrow keys will reset colour when a full octave has been transposed.\r\n- Custom Mode faders and CC pads now respond to incoming CCs, adjusting position/lighting according to CC value.\r\n- Pads set to Trigger behaviour in Custom Modes now light during press.\r\n- Pads set to Toggle behaviour in Custom Modes now light correctly.\r\n- Pads set to Program Change in Custom Modes now light correctly.\r\n- Note takeover no longer generates a Note On message.\r\n- External clock synchronisation has been improved at high bpm values.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/126/file"
+        },
+        {
+            "id": 141,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 471,
+            "version": "2.1",
+            "release_notes": "* For full details, check the addendum on the downloads page.\r\n\r\n* Switchable delay modes:\r\n\t* Normal – The original delay; one delay time with a left tap time and a right tap time.\r\n\r\n\t* Crossfed - Left input feeds the right delay, right input feeds the left delay, similar to ping pong delay but incorporates left, right \u0026 central panning. \r\n\r\n\t* Stereo - Each side of the delay has its own delay time equal to the tap time. \r\n\r\n\t* Output switch - A switch has been implemented to choose where the delay output is picked from. Either from the delay output, or from the delay filter output. For the last two delay styles this gives the ability to hear the first delay and filter in stereo. For the first delay style (normal), this will mono the delay and only give the longest delay tap time.\r\n\r\n* Improved bank and patch dumping to Novation Components.\r\n\r\n* Improved voice management to prevent voice dropping.\r\n\r\n* Bug fixes:\r\n\t* Fixed an issue where the mod routine (incl. envelope \u0026 LFO rates) was slower in V2.\r\n\t* Fixed an issue where envelopes were dropped abruptly in the last portion of the decay stage.\r\n\t* Fixed an issue where Tuning Tables were not responding to NRPN messages.\r\n\t* Fixed an issue where the sustain pedal input was affecting the engine when local was off.\r\n\t* Fixed an issue where the key latch lit up when the sustain pedal and a front panel button was pressed.\r\n\t* Fixed an issue where the device didn’t go into Bootloader mode when prompted by Components.\r\n\t* Fixed an issue where the VCA level changes prevented autoplaying patches upon load.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/141/file"
+        },
+        {
+            "id": 142,
+            "product": "peak",
+            "firmware_type": "fpga",
+            "build": 469,
+            "version": "2.1",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/142/file"
+        },
+        {
+            "id": 127,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 207,
+            "version": "1.1.1",
+            "release_notes": "Cubase support and minor UI fixes.",
+            "technical_release_notes": "- RGB support for Cubase integration.\r\n- UI interaction improvements, some menus were not displaying correctly.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/127/file"
+        },
+        {
+            "id": 143,
+            "product": "summit",
+            "firmware_type": "firmware",
+            "build": 274,
+            "version": "2.1",
+            "release_notes": "* For full details, check the addendum on the downloads page.\r\n\r\n* Switchable delay modes:\r\n\t* Normal - The original delay; one delay time with a left tap time and a right tap time.\r\n\r\n\t* Crossfed - Left input feeds the right delay, right input feeds the left delay, similar to ping pong delay but incorporates left, right \u0026 central panning. \r\n\r\n\t* Stereo - Each side of the delay has its own delay time equal to the tap time. \r\n\r\n\t* Output switch - a switch has been implemented to choose where the delay output is picked from. Either from the delay output, or from the delay filter output. For the last two delay styles this gives the ability to hear the first delay and filter in stereo. For the first delay style (normal), this will mono the delay and only give the longest delay tap time.\r\n\r\n* Improved bank and patch dumping to Novation Components.\r\n\r\n* Improved voice management to prevent voice dropping.\r\n\r\n* Bug fixes:\r\n\t* Fixed an issue where the mod routine (incl. envelope \u0026 LFO rates) was slower in V2.\r\n\t* Fixed an issue where envelopes were dropped abruptly in the last portion of the decay stage.\r\n\t* Fixed an issue where Tuning Tables were not responding to NRPN messages.\r\n\t* Fixed an issue where the sustain pedal input was affecting the engine when local was off.\r\n\t* Fixed an issue where the key latch lit up when the sustain pedal and a front panel button was pressed.\r\n\t* Fixed an issue where the device didn’t go into Bootloader mode when prompted by Components.\r\n\t* Fixed an issue where the VCA level changes prevented autoplaying patches upon load.\r\n\t* Fixed an issue where Part B LFO1/2 LEDs were displaying on Part A in multi-mode.\r\n\t* Fixed an issue where the page LEDs may have not updated correctly when switching between menus \u0026 parts.\r\n\t* Fixed an issue where exiting a menu was causing a Program Change message to send.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/143/file"
+        },
+        {
+            "id": 91,
+            "product": "circuit-rhythm",
+            "firmware_type": "firmware",
+            "build": 5196,
+            "version": "1.1",
+            "release_notes": "This update should be installed to enable the full feature-set of Circuit Rhythm. Please update your Circuit Rhythm to ensure that you have the best experience using the device.\r\n\r\nIn this release many features have been added and numerous bugs have been fixed. See the Technical Release Notes below for full detail.\r\n\r\n",
+            "technical_release_notes": "**New Features:**\r\n\r\nSlice Mode:\r\n\r\n- Slice recording added. Enter Expand View when a track is in Slice Mode, then press pads to record slice start \u0026 end points. This is very useful for chopping samples that don't divide perfectly into 4/8/16.\r\n\r\nPacks:\r\n\r\n- Packs may now be created on the device. Press an empty slot in Pack View then press play to create an empty pack in that slot\r\n\r\nGrid FX:\r\n\r\n- Auto-filter implemented\r\n- Gater phase is now synced with the sequence\r\n- Phaser parameters tweaked\r\n\r\nSample Record:\r\n\r\n- Back-to-back recording added. Press a second sample slot while recording to immediately begin recording to a new slot.\r\n- When clear is held in Sample View, only the currently selected sample will be lit, preventing accidental sample clearing.\r\n- Reverse, gated and looped sample playback in Sample Rec View added\r\n- Control monitor level in Sample Rec View with Macro 8 (-inf dB to +12 dB)\r\n- Reset monitor level to 0 dB in Sample Rec View by holding clear and turning Macro 8\r\n- Start point precision increased in Sample Rec View\r\n\r\nComponents:\r\n\r\n- Full Components integration enabled\r\n\r\nMisc:\r\n\r\n- Upper pitch range extended by +1 octave\r\n\r\n\r\n**Bugfixes:**\r\n\r\nSlice Mode:\r\n\r\n- Slices will no longer stop playing when a Note Off is received for a different slice on the same track\r\n- Auto-slice lengths are now more accurate\r\n\r\nSample Record:\r\n\r\n- Recording threshold level increased\r\n- Trimming samples will no longer occasionally cause the sample to glitch\r\n- Recording samples will no longer cause the sequencer to occasionally freeze momentarily while saving\r\n\r\nDrums Pads View:\r\n\r\n- Fixed velocity is no longer ignored in Drum Pads View with Note Repeat active\r\n- The click will no longer sound when Note Repeat is active but playback is not\r\n\r\nGrid FX:\r\n\r\n- Gater rates should correctly match those available in Components\r\n\r\nMisc:\r\n\r\n- Distortion will no longer be very occasionally introduced to the entire mix\r\n- Saving will no longer hang after removing the microSD card\r\n- Pads in Note View will no longer remain lit after note off messages are received\r\n- Delay will now remain synced to the sequencer at all tempo values\r\n- Samples should no longer click on playback\r\n- Altering distortion value will no longer cause a crackle\r\n- Choke behaviour now consistent across tracks\r\n- Tune automation no longer affected by automation on other tracks\r\n- MIDI Thru toggle on Advanced Setup View is no longer lit incorrectly\r\n",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/91/file"
+        },
+        {
+            "id": 92,
+            "product": "circuit-rhythm",
+            "firmware_type": "firmware",
+            "build": 5256,
+            "version": "1.1.1",
+            "release_notes": "Supports faster data transfer times from Components and minor bug fixes.",
+            "technical_release_notes": "**New Features:**\r\n\r\nImproved transfer speed:\r\n\r\n- Sending content to Circuit Rhythm from Components is now much faster\r\n\r\n**Bugfixes:**\r\n\r\nBeat repeat smoothing:\r\n\r\n- Added smooth crossfading when enabling/disabling beat repeat to eliminate unwanted clicks and pops\r\n\r\nSending single samples from Components:\r\n\r\n- Fixed an issue where single samples sent from Components were not immediately available when to sent to the active pack\r\n\r\nSlice record availability:\r\n\r\n- Fixed an issue where the slice record UI would sometimes be inaccessible\r\n\r\nGridFX clock interference:\r\n\r\n- Fixed an issue where external clocking could interfere with GridFX timings\r\n\r\nTrimming samples:\r\n\r\n- Fixed an issue where trimming could potentially corrupt samples when close to the memory limit",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/92/file"
+        },
+        {
+            "id": 128,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 417,
+            "version": "1.1.1",
+            "release_notes": "Cubase support and general maintenance.",
+            "technical_release_notes": "- RGB support for Cubase integration.\r\n- Fixed a typo in the USB product ID.\r\n- Fixed issue with hard key press output.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/128/file"
+        },
+        {
+            "id": 129,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 413,
+            "version": "1.0.5a",
+            "release_notes": "- Legacy Mode and Programmer Mode may once again be accessed as intended\r\n- Legacy Mode layout is once again arranged as intended",
+            "technical_release_notes": "- Legacy Mode and Programmer Mode may once again be accessed as intended\r\n- Legacy Mode layout is once again arranged as intended",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/129/file"
+        },
+        {
+            "id": 136,
+            "product": "flkey-mini",
+            "firmware_type": "firmware",
+            "build": 52,
+            "version": "1.0",
+            "release_notes": "Original factory firmware.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/136/file"
+        },
+        {
+            "id": 130,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 459,
+            "version": "1.0.5a",
+            "release_notes": "- Legacy Mode and Programmer Mode may once again be accessed as intended\r\n- Legacy Mode layout is once again arranged as intended",
+            "technical_release_notes": "- Legacy Mode and Programmer Mode may once again be accessed as intended\r\n- Legacy Mode layout is once again arranged as intended",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/130/file"
+        },
+        {
+            "id": 131,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 440,
+            "version": "2.0",
+            "release_notes": "* Pan control added to Voice menu.\r\n\r\n* 3 new stereo spread modes available in the Voice menu: Alternate, Diverge 2, NoteVal.\r\n\r\n* Delay stages added to Amp, Mod1 and Mod2 envelopes. Edited in the Env menu.\r\n\r\n* New Mod Matrix Destinations:\r\n\t* Pan \r\n\t* Oscillator 123 shape\r\n\t* Amp Envelope Delay\r\n\t* Amp Envelope Hold\r\n\t* Amp Envelope Sustain\r\n\t* Mod1 Envelope Delay\r\n\t* Mod1 Envelope Hold\r\n\t* Mod1 Envelope Sustain\r\n\t* Mod2 Envelope Delay\r\n\t* Mod2 Envelope Hold\r\n\t* Mod2 Envelope Sustain\r\n\r\n* A Patch Cue mode is now available in Settings. When on, patches won't load until confirmed by pressing Single or Multi, dependent on patch mode.\r\n\r\n* Animate Envelopes. Attack and Release envelopes for each animate button found in the Envelope menu.\r\n\r\n* New FX Mod Destinations:\r\n\t* Reverb LDamp (previously Rev LPF)\r\n\t* Reverb HDamp (previously Rev HPF)\r\n\t* Reverb Size\r\n\t* Reverb LPass \r\n\t* Reverb HPass\r\n\t* Delay Slew\r\n\t* Delay LF Damp\r\n\t* Delay HF Damp\r\n\t* Delay Width\r\n\t* Delay Ratio\r\n\t* LFO3 Rate\r\n\t* LFO4 Rate\r\n\t* Noise LPF\r\n\t* Noise HPF\r\n\r\n* LFO 3+4 Additional parameters found in the LFO menu:\r\n\t* Phase\r\n\t* Slew\r\n\t* Fade in time\r\n\r\n* Additional Chorus modes found in the FX menu:\r\n\t* Flanger\r\n\t* Phlanger - a flanger tuned to have phaser like effects\r\n\r\n* Delay Time Mode added to FX menu. Reduces sample rate of the delay to extend the max delay time available, as well as degrading the delay tone to emulate vintage digital / tape delays.\r\n\r\n* Noise added as a mod source.\r\n\r\n* Noise HPF filter added to Oscillator menu.\r\n\r\n* Arp Chance added to arp menu to affect the probability of the arp playing the next step.\r\n\r\n* Chord2 mode added to arp. This interacts with arp chance on a per note basis. This means Chord and Chance can be used for entire Chord probability, while Chord2 can be used for probability of each note in a chord.\r\n\r\n\r\n",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/131/file"
+        },
+        {
+            "id": 135,
+            "product": "flkey-mini",
+            "firmware_type": "firmware",
+            "build": 56,
+            "version": "1.1",
+            "release_notes": "Release day firmware including touch strip support.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/135/file"
+        },
+        {
+            "id": 137,
+            "product": "flkey",
+            "firmware_type": "firmware",
+            "build": 52,
+            "version": "1.0",
+            "release_notes": "Original factory firmware.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/137/file"
+        },
+        {
+            "id": 140,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 416,
+            "version": "2.0",
+            "release_notes": "- Custom Mode keystrokes\r\n- 4 additional Custom Modes (now 8)\r\n- Custom Mode Global Channel setting",
+            "technical_release_notes": "- Custom Mode keystrokes\r\n- 4 additional Custom Modes (now 8)\r\n- Custom Mode Global Channel setting",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/140/file"
+        },
+        {
+            "id": 139,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 462,
+            "version": "2.0",
+            "release_notes": "- Custom Mode keystrokes\r\n- Custom Mode Global Channel setting",
+            "technical_release_notes": "- Custom Mode keystrokes\r\n- Custom Mode Global Channel setting",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/139/file"
+        },
+        {
+            "id": 144,
+            "product": "summit",
+            "firmware_type": "fpga",
+            "build": 778,
+            "version": "2.1",
+            "release_notes": "",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/144/file"
+        },
+        {
+            "id": 138,
+            "product": "launchkey-88",
+            "firmware_type": "firmware",
+            "build": 18,
+            "version": "1.1.1",
+            "release_notes": "Original factory firmware.",
+            "technical_release_notes": "Original factory firmware.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/138/file"
+        },
+        {
+            "id": 145,
+            "product": "circuit-rhythm",
+            "firmware_type": "firmware",
+            "build": 5695,
+            "version": "2.0",
+            "release_notes": "This update brings a number of powerful new features to Circuit Rhythm.",
+            "technical_release_notes": "**New Features:**\r\n\r\n- Perform and edit Grid FX parameters on the device using the macro knobs in Grid FX View\r\n- Use Beat Match in the Sample Mode View to speed up or slow down samples to match the current project’s tempo\r\n- Toggle Fixed Length Recording in the Sample Record View to record perfect loops of 8, 16, 32, or 64 steps based on the current project’s tempo\r\n- Mute states may now be stored to Scenes\r\n- Newly recorded samples may now be previewed immediately in Sample Record View*\r\n- Change sample selection with CC8\r\n- Various improvements and bug-fixes\r\n\r\n*Note that for a new Fixed Length recording, the sample will not play back in full until saving is complete.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/145/file"
+        },
+        {
+            "id": 146,
+            "product": "launchpad-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 467,
+            "version": "2.0.1",
+            "release_notes": "Contains a bug fix and a setting for managing data sent by the two USB MIDI ports",
+            "technical_release_notes": "* Fixed an issue where Notes had incorrectly been toggling off when other Notes were pressed in Custom Modes.\r\n\r\n* Added a setting to the LED settings page to allow for more compatibility with hardware configurations. The newly added yellow pad toggles whether MIDI data is to be sent to both USB MIDI ports (brightly lit) or just the second USB MIDI port (dim). This setting is ignored if Session mode is active, where no Custom Mode data is sent to the first USB MIDI port. ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/146/file"
+        },
+        {
+            "id": 147,
+            "product": "launchpad-x",
+            "firmware_type": "firmware",
+            "build": 422,
+            "version": "2.0.1",
+            "release_notes": "Contains bug fixes and a setting for managing data sent by the two USB MIDI ports.",
+            "technical_release_notes": "* Fixed an issue where Notes had incorrectly been toggling off when other Notes were pressed in Custom Modes.\r\n\r\n* Added a setting to the LED settings page to allow for more compatibility with hardware configurations. The newly added yellow pad toggles whether MIDI data is to be sent to both USB MIDI ports (brightly lit) or just the second USB MIDI port (dim). This setting is ignored if Session mode is active, where no Note mode or Custom Mode data is sent to the first USB MIDI port.\r\n\r\n* Changed layout of Todi scale to match other Novation products\r\n\r\n* Fixed an issue where transposition and octave changes were reset when a new scale or MIDI channel was selected.\r\n\r\n* Fixed an issue where the root note was incorrectly resetting when a new scale or layout was selected. ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/147/file"
+        },
+        {
+            "id": 150,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 217,
+            "version": "1.1.2",
+            "release_notes": "Bug fixes",
+            "technical_release_notes": "Fixes an issue where additional notes would occur from the arpeggiator when syncing to an external clock\r\nResolved an issue causing the Octave down LED to light when holding Shift whilst working in a DAW",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/150/file"
+        },
+        {
+            "id": 151,
+            "product": "circuit-tracks",
+            "firmware_type": "firmware",
+            "build": 4469,
+            "version": "1.2",
+            "release_notes": "Adding Mute states in Scenes as well as a number of bug fixes",
+            "technical_release_notes": "New features:\r\n\r\n- Mute states can now be saved in Scenes using the white pad on the Mixer page\r\n\r\nBug Fixes\r\n\r\n- Sample selection for drum tracks can be updated via cc's (see Programmers Reference guide for details)\r\n- Song position pointer no longer crashes the device when changing Scene\r\n- Fixed a bug where Scenes could play outside of the active scene chain causing the unit to crash\r\n- Improved transfer speed when sending content to the device from Components\r\n- Improved reliability of SD card transfers, allowing for compatibility with a wider range of SD cards",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/151/file"
+        },
+        {
+            "id": 152,
+            "product": "flkey",
+            "firmware_type": "firmware",
+            "build": 66,
+            "version": "1.1",
+            "release_notes": "New features for FLkeys 49 and 61\r\n\r\nPatterns\r\n\r\n- Pattern pad mode (shift + bottom left pad mode)\r\n\r\n- Create new patterns (shift + preset up)\r\n\r\n- Clone patterns (shift + preset down)\r\n\r\n- Additional custom pad mode (shift + bottom right pad mode)\r\n\r\nFaders and Fader Buttons\r\n\r\n- Mixer volume control\r\n\r\n- Mixer mute/solo\r\n\r\n- Channel volume control\r\n\r\n- Channel rack mute/solo\r\n\r\n- Plugin fader control\r\n\r\n \r\nNew features for FLkey 37\r\n\r\n- Pattern pad mode now available (shift + bottom left pad mode)\r\n\r\n- Create new patterns from device (shift + preset up)\r\n\r\n- Clone pattern from device (shift + preset down)\r\n\r\n- Additional custom pad mode slot (shift + bottom right pad mode)\r\n\r\n \r\n\r\nMaintenance Fixes\r\n\r\n- Fixed plugin control issues for Toxic Biohazard and Bass Drum plugins seen in FL Studio 21\r\n\r\n- Fixed an issue with incorrect parameters displaying with Fruity Slicer plugin\r\n\r\n- Fixed an issue with undo not always being effective\r\n\r\n- Fixed an issue where changing midi settings could cause the device to become unresponsive\r\n\r\n- Improvements to pot performance\r\n\r\n- Unavailable functions no longer lit while shift is held\r\n\r\n- FL Studio will prompt users to update if their DAW version is incompatible with the script\r\n\r\n- Interactions from device are blocked when unavailable (e.g. while renaming and colouring)\r\n\r\n- Added support for user plugin mappings",
+            "technical_release_notes": "FL37 CHANGES\r\n- Pattern pad mode now available (shift + bottom left pad mode)\r\n- Create new patterns from device (shift + preset up)\r\n- Clone pattern from device (shift + preset down)\r\n- Additional custom pad mode slot (shift + bottom right pad mode)\r\n\r\nNEW FOR FL49/61\r\n\r\nPatterns\r\n- Pattern pad mode (shift + bottom left pad mode)\r\n- Create new patterns (shift + preset up)\r\n- Clone patterns (shift + preset down)\r\n- Additional custom pad mode (shift + bottom right pad mode)\r\n\r\nFaders\r\n- Mixer volume control\r\n- Mixer mute/solo\r\n- Channel volume control\r\n- Channel rack mute/solo\r\n- Plugin fader control\r\n\r\nMAINTENANCE \r\n- Fixed plugin control issues for Toxic Biohazard and Bass Drum plugins seen in FL Studio 21\r\n- Fixed an issue with incorrect parameters displaying with Fruity Slicer plugin\r\n- Fixed an issue with undo not always being effective\r\n- Fixed an issue where changing midi settings could cause the device to become unresponsive\r\n- Improvements to pot performance\r\n- Unavailable functions no longer lit while shift is held\r\n- FL Studio will prompt users to update if their DAW version is incompatible with the script\r\n- Interactions from device are blocked when unavailable (e.g. while renaming and colouring)\r\n- Added support for user plugin mappings",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/152/file"
+        },
+        {
+            "id": 153,
+            "product": "launchpad-pro-mk3",
+            "firmware_type": "firmware",
+            "build": 483,
+            "version": "1.2.2",
+            "release_notes": "Includes two bug fixes.",
+            "technical_release_notes": "Fixed an issue where the Aftertouch settings had no effect on Aftertouch sensitivity.\r\n\r\nFixed an issue where the unit would restart after receiving a Stop message during a Scene change.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/153/file"
+        },
+        {
+            "id": 154,
+            "product": "summit",
+            "firmware_type": "firmware",
+            "build": 2121,
+            "version": "2.2",
+            "release_notes": "* Local state is now stored in the global settings. If Local is saved to ‘Off’ a temporary display will show on boot. Settings must be saved in order to be retained through a power cycle (go to the Settings menu and press Save) \r\n\r\n* All local modes can be set by sending the following values on CC122. A temporary display will be shown when the local state is changed via MIDI:\r\n         0 = off\r\n         64 = seq\r\n         127 = on\r\n\r\n* Pressing both Octave buttons resets the octave range - As with other Novation synths, pressing Octave +/- will reset any octave shift applied to the keys through the Octave buttons. \r\n\r\n* Bug fixes:\r\n\t* Sudden changes in stereo position - fixed an issue where certain combinations of Spread, SpreadMode and PanPosn settings could result in sudden changes to the distribution of voices in the stereo field. \r\n\t*  Animates not available in Local | Seq - Both animate buttons now work in Single \u0026 Multi mode when local mode is set to Seq. \r\n\t*  Oscillator Diverge \u0026 Drift in multi-patches - These settings now work on a per-part basis.\r\n\t*  Switching to Multi Mode via MIDI  - NRPN 62:0:1 to global MIDI channel now switches to Multi. NRPN 62:0:0 to either part A or part B MIDI channel switches to Single.\r\n\t*  LFOs on both parts of a multi adapt to tempo changes - Previously LFOs on a multi only updated to tempo changes if part B was selected. This is now fixed. \r\n\t*  LFO Common - LFO common is now working uniformly across voices 1-8 \u0026 9-16 and can be used on a per-part basis in multi-patches. \r\n\t*  Reverb Size not recalled correctly when loading a patch - Reverb Size front panel control and Reverb Size menu parameter (FX 8/10) now work bi-directionally and settings are recalled correctly.\r\n\t*  All sounds off/all notes off - Summit now responds to both CC120 \u0026 CC123 according to the MIDI org specs. CC120 (all sounds off) cancels all notes and shuts down envelopes \u0026 FX – settings are restored with the next note. CC123 (all notes off) cancels any active notes.\r\n\t*  LFO FadeSync  - LFO FadeSync now works in both Mono \u0026 Poly voice modes. This feature determines whether fade is applied to an LFO, when set to ‘On’ the fade value will be applied to each keypress in legato playing style. When set to ‘Off’ the fade will be applied with the first key press in legato playing style.\r\n\t* Mixed displays when moving multiple controls - Revisions have been made to the screen display prioritisation to prevent mixed/garbled displays from appearing on screen.\r\n\t* Screen doesn’t wake from a USD MIDI event - Fixed an issue when the screen would not wake when receiving a USB MIDI event.\r\n\t* Ignores LSB in CC pairs - LSB is no longer ignored, this reduces stepping when controlling Summit via external MIDI\r\n\t* Notes held in Arp cache when Arp is off - In previous builds if Arp was disabled while notes were being held, the notes would be cached causing the same arpeggiated sequence to play when Arp is enabled again. The Arp note cache is now cleared when Arp is disabled.\r\n \t* Arp to MIDI behaviour has been changed. Please see this page for more information: https://support.novationmusic.com/hc/en-gb/articles/13001787498898 \r\n \t* Octave values show as -64 in some multi-patches - Per part octave displacement values shown multi patch page 4/4 now display correctly. \r\n \t* Pressing ‘Compare’ while Part B is selected changes Part selection to Part A - Updated part selection and Multi-mode state are now retained when using ‘Compare’.\r\n \t* LFO 3 \u0026 4 values differ between voices 1-8 \u0026 9-16 - LFO 3 \u0026 4 are now uniform across all voices.\r\n \t* Activating Arp on a multi patch will cancel latched notes on the other part when using MIDI loopback  - Latched notes are now retained in this circumstance.\r\n \t* ‘saved val’ display flickers between Part A \u0026 Part B when using multi control - Screen will show the saved value on Part A and Part as ‘saved ptA’ \u0026 ‘saved ptB’ when Parts A \u0026 B are selected.\r\n \t* Octave buttons don’t respond when local is off - Octave buttons now adjust to the octave range of the MIDI output when local is off.\r\n \t* Part A/B categories update correctly - Category fields now show correctly in multi-patches.\r\n \t* LFO LEDs updating when using Phase Sync on multi patches - LED displays in this circumstance have been improved and reflect the per-part LFO settings.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/154/file"
+        },
+        {
+            "id": 155,
+            "product": "peak",
+            "firmware_type": "firmware",
+            "build": 2108,
+            "version": "2.2",
+            "release_notes": "In the rare event front panel controls become responsive after completing this update it will be necessary to restart your unit.\r\n\r\n* Local state is now stored in the global settings. If Local is saved to ‘Off’ a temporary display will show on boot. Settings must be saved in order to be retained through a power cycle (go the Settings menu and press Save)\r\n\r\n* All local modes can be set by sending the following values on CC122. A temporary display will be shown when the local state is changed via MIDI:\r\n         0 = off\r\n         127 = on\r\n \r\n* Bug fixes:\r\n\r\n\t*  Sudden changes in stereo position - fixed an issue where certain combinations of Spread, SpreadMode and PanPosn settings could result in sudden changes to the distribution of voices in the stereo field.\r\n\t* Poly mode voice management - Previously when using 8 voice unison with long envelope times in Poly mode all 8 voices may not be triggered when playing in legato style. All 8 voices are now triggered whenever a new key is pressed. This fix does not apply to Poly2 mode.\r\n\t* Hanging notes - Playing greater than 8 notes after the unit has booted can no longer result in a hanging note.\r\n\t* Reverb Size not recalled correctly when loading a patch - Reverb Size front panel control and Reverb Size menu parameter (FX 8/10) now work bi-directionally and settings are recalled correctly.\r\n\t* All sounds off/all notes off - Peak now responds to both CC120 \u0026 CC123 according to the MIDI org specs. CC120 (all sounds off) cancels all notes and shuts down envelopes \u0026 FX – settings are restored with the next note. CC123 (all notes off) cancels any active notes.\r\n\t* LFO FadeSync  - LFO FadeSync now works in both Mono \u0026 Poly voice modes. This feature determines whether fade is applied to an LFO, when set to ‘On’ the fade value will be applied to with each keypress in legato playing style. When set to ‘Off’ the fade will be applied with the first key press in legato playing style.\r\n\t* Mixed displays when moving multiple controls - Revisions have been made to the screen display prioritisation to prevent mixed/garbled displays appearing on screen.\r\n\t* Screen doesn’t wake from a USD MIDI event - Fixed an issue when the screen would not wake when receiving a USB MIDI event.\r\n\t*  Ignores LSB in CC pairs - LSB is no longer ignored, this reduces stepping when controlling Peak via external MIDI\r\n\t*  Notes held in Arp cache when Arp is off - In previous builds if Arp was disabled while notes were being held, the notes would be cached causing the same arpeggiated sequence to play when Arp is enabled again. The Arp note cache is now cleared when Arp is disabled.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/155/file"
+        },
+        {
+            "id": 157,
+            "product": "launchkey-88",
+            "firmware_type": "firmware",
+            "build": 27,
+            "version": "1.1.3",
+            "release_notes": "Added the ability to stop illuminating the pads and LEDs by holding Shift and Settings together for two seconds. Pressing Shift or Settings, or holding Arp will illuminate the screen again. Restarting the unit will also cause the lights to come back.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/157/file"
+        },
+        {
+            "id": 171,
+            "product": "launchkey-mk4",
+            "firmware_type": "firmware",
+            "build": 1244,
+            "version": "1.1.1244.14",
+            "release_notes": "Resolves an issue where the fader buttons on some Launchkey units behaved incorrectly when in DAW mode.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/171/file"
+        },
+        {
+            "id": 173,
+            "product": "launch-control-xl-mk3",
+            "firmware_type": "firmware",
+            "build": 1364,
+            "version": "1.0.1364.0",
+            "release_notes": "Unlocks the following features:\r\n* Complete DAW mode for integration with Ableton, Logic, Cubase and FL Studio\r\n* 16 custom modes\r\n* MIDI Merge and port routing settings per Custom Mode\r\n* Device Settings\r\n* Parameter preview on encoders\r\n* Custom Mode encoder pick-up\r\n* Sticky Shift (latch Shift using a double press)\r\n\r\nKnown issues:\r\n* Custom Mode Settings are reset when sending a new custom mode but not reflected in the menu\r\n* Pressing Shift + Mode while Custom Mode Settings are being saved interrupts the saving process",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/173/file"
+        },
+        {
+            "id": 164,
+            "product": "launchkey-mk4",
+            "firmware_type": "firmware",
+            "build": 1151,
+            "version": "1.1.1151.0",
+            "release_notes": "#### Arpeggiator\r\n* Introduced accents, ratchets, and ties for the arpeggiator, allowing for more intricate and expressive arpeggiations\r\n* New Drum Mode Transposition: Users can now transpose in Drum mode, expanding creative possibilities\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Chord Map\r\n* Added transpose functionality via up/down buttons.\r\n* Chord map now follows the chord channel setting, maintaining consistency across different modes\r\n* Encoders retain their settings after pad mode changes, reducing the need for adjustments\r\n* Performance pads reset automatically when released, with labels now shown on-screen for easy reference\r\n* Fixed issues with dropped notes when quickly playing pads, and removed duplicate chords for cleaner performance\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Custom Modes\r\n* Custom modes now support up to 16 encoder mappings per layout, allowing for more detailed control setups\r\n* Fader pickup type can now be set directly from the device, enhancing hands-on control\r\n* Improved toggle and momentary behaviors ensure reliable operation within custom modes\r\n\r\n\u003cbr/\u003e\r\n\r\n#### User Interface \u0026 Display\r\n* Persistent chord detection display: Chords remain visible on-screen until released, ensuring continuous feedback\r\n* New two-note interval recognition provides additional detail in chord analysis\r\n* On-press color updated from green to white for better visibility\r\n* Reduced flickering on the OLED display during multi-control interactions\r\n* Updated scale and chord mode display: Now consistently shows sharps instead of flats\r\n* The OLED display now times out after 15 minutes of inactivity\r\n* Adjusted screen prioritization ensures that essential information is displayed when most needed\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Other\r\n**Sustain, Pitch, and Mod Wheel Enhancements**\r\n* Sustain, pitch, and mod wheels now correctly follow part(s) selection on 49 and 61 key models, ensuring more accurate control\r\n\r\n\u003cbr/\u003e\r\n\r\n**Improved DAW Integration**\r\n* Made various refinements to HUI mode for better interaction with DAWs\r\n* Adjustments to DAW port output resolve issues where plugin settings were inadvertently altered\r\n\r\n\u003cbr/\u003e\r\n\r\n**Improved Chord Detection**\r\n* Detection now shown for all chord modes, offering consistent feedback.\r\n* Chords in User Chord Mode now display on keyed interactions, which can be disabled if desired.\r\n\r\n\u003cbr/\u003e\r\n\r\n**Split-Point Interaction**\r\n* Improved set-split-point interaction on 49- and 61-key models, making it more intuitive",
+            "technical_release_notes": "#### General UI Fixes\r\n* Numerous interface fixes have been implemented to enhance overall usability and responsiveness  \r\n\r\n\r\n#### Chord Detection\r\n* Improved chord detector accuracy\r\n\r\n\r\n#### Stuck Notes\r\n* Fixed issues with notes getting stuck in Chord Map and Inversion Mode\r\n\r\n\r\n#### Custom Modes\r\n* Fixed issues where custom modes were being ignored, and fader pickup behaviour was not being recognised\r\n\r\n\r\n#### OLED Display\r\n* Resolved flickering issues on the OLED display when moving controls in arp mode and other similar scenarios\r\n\r\n\r\n#### DAW Mode Integration\r\n*Ensured that feature controls are properly deactivated when exiting DAW mode, and that encoder bank buttons do not interfere when not in use",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/164/file"
+        },
+        {
+            "id": 156,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 225,
+            "version": "1.1.3",
+            "release_notes": "Added the ability to stop illuminating the pads and LEDs by holding Shift and Settings together for two seconds. Pressing Shift or Settings, or holding Arp will illuminate the screen again. Restarting the unit will also cause the lights to come back.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/156/file"
+        },
+        {
+            "id": 158,
+            "product": "flkey",
+            "firmware_type": "firmware",
+            "build": 68,
+            "version": "1.1.1",
+            "release_notes": "Added the ability to stop illuminating the pads and LEDs by holding Shift and Settings together for two seconds. Pressing Shift or Settings will illuminate the screen again. Restarting the unit will also cause the lights to come back.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/158/file"
+        },
+        {
+            "id": 160,
+            "product": "launchkey-mk3",
+            "firmware_type": "firmware",
+            "build": 228,
+            "version": "1.2",
+            "release_notes": "The 1.2 firmware update brings quality-of-life improvements to Launchkey MK3",
+            "technical_release_notes": "New in 1.2:\r\n* Added the ability to set the startup mode used for the Pads, Faders, and Pots within the Settings menu.\r\n\r\n* The Play and Stop buttons now send \"Play\" and \"Stop\" realtime MIDI messages when they're not controlling a DAW.  \r\n\r\n* Pads and buttons will now light in response to incoming MIDI messages that match the values they are assigned to. ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/160/file"
+        },
+        {
+            "id": 161,
+            "product": "launchkey-88",
+            "firmware_type": "firmware",
+            "build": 30,
+            "version": "1.2",
+            "release_notes": "The 1.2 firmware update brings quality-of-life improvements to Launchkey MK3",
+            "technical_release_notes": "New in 1.2:\r\n* Added the ability to set the startup mode used for the Pads, Faders, and Pots within the Settings menu.\r\n\r\n* The Play and Stop buttons now send \"Play\" and \"Stop\" realtime MIDI messages when they're not controlling a DAW.  \r\n\r\n* Pads and buttons will now light in response to incoming MIDI messages that match the values they are assigned to. ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/161/file"
+        },
+        {
+            "id": 159,
+            "product": "launchkey-mini-mk3",
+            "firmware_type": "firmware",
+            "build": 461,
+            "version": "1.2",
+            "release_notes": "The 1.2 firmware update brings quality-of-life improvements to Launchkey Mini MK3",
+            "technical_release_notes": "New in 1.2:\r\n* The Play button now sends \"Play\" and \"Stop\" realtime MIDI messages when it's not controlling a DAW.  \r\n* Pads will now light in response to incoming MIDI messages that match the values they are assigned to.  ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/159/file"
+        },
+        {
+            "id": 163,
+            "product": "flkey-mini",
+            "firmware_type": "firmware",
+            "build": 73,
+            "version": "1.2",
+            "release_notes": "The 1.2 firmware update brings quality-of-life improvements to FLkey Mini.",
+            "technical_release_notes": "New in 1.2:\r\n* The Play button now sends \"Play\" and \"Stop\" realtime MIDI messages when it's not controlling a DAW. \r\n \r\n* Pads will now light in response to incoming MIDI messages that match the values they are assigned to.  ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/163/file"
+        },
+        {
+            "id": 162,
+            "product": "flkey",
+            "firmware_type": "firmware",
+            "build": 71,
+            "version": "1.2",
+            "release_notes": "The 1.2 firmware update brings quality-of-life improvements to FLkey.",
+            "technical_release_notes": "New in 1.2: \r\n* The Play and Stop buttons now send \"Play\" and \"Stop\" realtime MIDI messages when they're not controlling a DAW.  \r\n\r\n* Pads and buttons will now light in response to incoming MIDI messages that match the values they are assigned to. ",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/162/file"
+        },
+        {
+            "id": 165,
+            "product": "launchkey-mini-mk4",
+            "firmware_type": "firmware",
+            "build": 1151,
+            "version": "1.1.1151.0",
+            "release_notes": "#### Arpeggiator\r\n* Introduced accents, ratchets, and ties for the arpeggiator, allowing for more intricate and expressive arpeggiations\r\n* New Drum Mode Transposition: Users can now transpose in Drum mode, expanding creative possibilities\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Chord Mode\r\n* Chord mode is now accessible via the Shift + Scale button combination\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Chord Map\r\n* Added transpose functionality via up/down buttons\r\n* Chord map now follows the chord channel setting, maintaining consistency across different modes\r\n* Encoders retain their settings after pad mode changes, reducing the need for adjustments\r\n* Performance pads reset automatically when released, with labels now shown on-screen for easy reference\r\n* Fixed issues with dropped notes when quickly playing pads, and removed duplicate chords for cleaner performance\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Custom Modes\r\n* Custom modes now support up to 16 encoder mappings per layout, allowing for more detailed control setups\r\n* Improved toggle and momentary behaviours ensure reliable operation within custom modes\r\n\r\n\u003cbr/\u003e\r\n\r\n#### User Interface \u0026 Display\r\n* Persistent chord detection display: Chords remain visible on-screen until released, ensuring continuous feedback\r\n* New two-note interval recognition provides additional detail in chord analysis\r\n* On-press colour updated from green to white for better visibility\r\n* Reduced flickering on the OLED display during multi-control interactions\r\n* Updated scale and chord mode display: Now consistently shows sharps instead of flats\r\n* The OLED display now times out after 15 minutes of inactivity\r\n* Adjusted screen prioritisation ensures that essential information is displayed when most needed\r\n\r\n\u003cbr/\u003e\r\n\r\n#### Other\r\n**Improved DAW Integration**\r\n* Made various refinements to HUI mode for better interaction with DAWs.\r\n* Adjustments to DAW port output resolve issues where plugin settings were inadvertently altered.\r\n\r\n\u003cbr/\u003e\r\n\r\n**Improved Chord Detection**\r\n* Detection now shown for all chord modes, offering consistent feedback.\r\n* Chords in User Chord Mode now display on keyed interactions, which can be disabled if desired.",
+            "technical_release_notes": "#### General UI Fixes\r\n* Numerous interface fixes have been implemented to enhance overall usability and responsiveness\r\n\r\n#### Chord Detection\r\n* Improved chord detector accuracy\r\n\r\n#### Stuck Notes\r\n* Fixed issues with notes getting stuck in Chord Map and Inversion Mode\r\n\r\n#### Custom Modes\r\n* Fixed issues where custom modes were being ignored, and fader pickup behaviour was not being recognised\r\n\r\n#### OLED Display\r\n* Resolved flickering issues on the OLED display when moving controls in arp mode and other similar scenarios\r\n\r\n#### DAW Mode Integration\r\n* Ensured that feature controls are properly deactivated when exiting DAW mode, and that encoder bank buttons do not interfere when not in use",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/165/file"
+        },
+        {
+            "id": 172,
+            "product": "launchkey-mini-mk4",
+            "firmware_type": "firmware",
+            "build": 1244,
+            "version": "1.1.1244.15",
+            "release_notes": "Resolves an issue where the fader buttons on some Launchkey units behaved incorrectly when in DAW mode.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/172/file"
+        },
+        {
+            "id": 166,
+            "product": "launchkey-mk4",
+            "firmware_type": "firmware",
+            "build": 1157,
+            "version": "1.1.1157.0",
+            "release_notes": "#### Bug Fixes\r\nThis release contains some bug fixes, see the technical details section for more information. ",
+            "technical_release_notes": "* Arp Deviate pot now correctly labelled Rhythm.\r\n* Keystroke labels are now displayed when used in Custom Modes.\r\n* Selected Encoder bank now shows when using Encoder Bank buttons in Encoder Custom Modes.\r\n* Custom Mode label for pad 1 is now being retrieved successfully.",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/166/file"
+        },
+        {
+            "id": 167,
+            "product": "launchkey-mini-mk4",
+            "firmware_type": "firmware",
+            "build": 1157,
+            "version": "1.1.1157.0",
+            "release_notes": "#### Bug Fixes\r\nThis release contains some bug fixes, see the technical details section for more information. ",
+            "technical_release_notes": "* Arp Deviate pot now correctly labelled Rhythm.\r\n* Keystroke labels are now displayed when used in Custom Modes.\r\n* Selected Encoder bank now shows when using Encoder Bank buttons in Encoder Custom Modes.\r\n* Custom Mode label for pad 1 is now being retrieved successfully.\r\n* Resolved an issue where port names could have been incorrect after a factory reset on Launchkey Mini",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/167/file"
+        },
+        {
+            "id": 168,
+            "product": "circuit-tracks",
+            "firmware_type": "firmware",
+            "build": 4486,
+            "version": "1.2.1",
+            "release_notes": "To improve the workflow for synchronising Project changes between two Circuits, Project changes will now send the Program Change message for a Queued Switch for the current Project rather than the one for an Instant Change message for the current project. Instant switches are still available by holding the Shift button when changing Projects. For more information on this change and its effect on working with two Circuits please our help centre article \u003ca href=\"https://support.novationmusic.com/hc/en-gb/articles/24060538791570\" target=\"_blank \" rel=\"noopener\"\u003ehere\u003c/a\u003e.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/168/file"
+        },
+        {
+            "id": 169,
+            "product": "circuit-rhythm",
+            "firmware_type": "firmware",
+            "build": 5706,
+            "version": "2.0.1",
+            "release_notes": "To improve the workflow for synchronising Project changes between two Circuits, Project changes will now send the Program Change message for a Queued Switch for the current Project rather than the one for an Instant Change message for the current project. Instant switches are still available by holding the Shift button when changing Projects. For more information on this change and its effect on working with two Circuits please our help centre article \u003ca href=\"https://support.novationmusic.com/hc/en-gb/articles/24060538791570\" target=\"_blank\" rel=\"noopener\"\u003ehere\u003c/a\u003e.",
+            "technical_release_notes": "",
+            "url": "https://components.novationmusic.com/api/v2/firmwares/169/file"
+        }
+    ]
+}
