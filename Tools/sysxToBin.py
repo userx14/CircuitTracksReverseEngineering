@@ -36,14 +36,21 @@ def extract_sysex_messages(syx_path):
             cropped_data = data[i+6:end_index]
             if command == "UPDATE_INIT":
                 version = parse_nibble(cropped_data[2:8])
+                if cropped_data[1] == 0x64:
+                    print("target: circuit tracks")
+                elif cropped_data[1] == 0x63:
+                    print("target: circuit rhythm")
+                else:
+                    print(hex(cropped_data))
+                    print(0x1d)
                 print(f"init version: {version}")
             elif command == "UPDATE_HEADER":
                 version  = parse_nibble(cropped_data[1:7])
-                print(f"header version {version}")
+                print(f"header version: {version}")
                 filesize = parse_nibble(cropped_data[7:15])
-                print(f"header filesize {hex(filesize)}")
+                print(f"header filesize: {hex(filesize)}")
                 checksum = parse_nibble(cropped_data[15:23])
-                print(f"header checksum {hex(checksum)}")
+                print(f"header checksum: {hex(checksum)}")
             elif command in ["UPDATE_WRITE", "UPDATE_FINISH"]:
                 #need to tightly pack 7bit MIDI bytes into 8bit firmware file
                 packed   = np.frombuffer(cropped_data, dtype=np.uint8)
