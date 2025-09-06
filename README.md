@@ -28,5 +28,6 @@
 
 ## Debugging header
 10-Pin Legged TC2050 Plug-of-Nails™ programming cable would be compatible.
+
 <image  src="./Documentation/Diagrams/debugHeader.svg">
 <image  src="./Documentation/Mainboard-Photos/j3_debug_port.png">
