@@ -25,7 +25,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="4.5934363"
-     inkscape:cx="120.17147"
+     inkscape:cx="120.06262"
      inkscape:cy="181.45457"
      inkscape:window-width="3840"
      inkscape:window-height="2066"
@@ -471,7 +471,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40058"
          x="-92.278137"
          y="35.988644"
-         id="tspan1-4-7">???, likely STM32</tspan></text>
+         id="tspan1-4-7">?, likely SWO</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29782px;line-height:1.2;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40058;stroke-linecap:round;stroke-opacity:1"
@@ -483,7 +483,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40058"
          x="-92.278137"
          y="58.960117"
-         id="tspan1-4-7-1">???, likely STM32</tspan></text>
+         id="tspan1-4-7-1">?, likely Reset</tspan></text>
     <rect
        style="fill:none;stroke:#697eb0;stroke-width:0.324025;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect1-2-2-4-4-2-7-6-7"
