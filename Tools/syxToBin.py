@@ -3,7 +3,12 @@ from pathlib import Path
 import crcmod
 import sys
 
-def extract_sysex_messages(syx_path):
+def extract_sysex_messages(syxFileData):
+    device_list = dict([
+        (0x64, "tracks"),
+        (0x63, "rhythm"),
+    ])
+    
     commands_list = dict([
         (0x71, "UPDATE_INIT"),
         (0x72, "UPDATE_WRITE"),
@@ -18,31 +23,24 @@ def extract_sysex_messages(syx_path):
             result = result << 4
             result |= byte_value
         return result
-
-    with open(syx_path, 'rb') as syx_file:
-        data = syx_file.read()
-
+    
     finalFirmwareFile = np.empty([0],dtype=np.uint8)
     i = 0
-    while i < len(data):
-        if data[i] == 0xF0:  #SysEx start byte
-            end_index = data.find(0xF7, i) #SysEx end byte
+    while i < len(syxFileData):
+        if syxFileData[i] == 0xF0:  #SysEx start byte
+            end_index = syxFileData.find(0xF7, i) #SysEx end byte
             if end_index == -1:
                 raise ValueError("Missing SysEx end byte")
             novation_header = bytes([0x00, 0x20, 0x29, 0x00])
-            if data[i+1:i+5] != novation_header:
+            if syxFileData[i+1:i+5] != novation_header:
                 raise ValueError("File is missing novation header")
-            command      = commands_list[data[i+5]]
-            cropped_data = data[i+6:end_index]
+            command      = commands_list[syxFileData[i+5]]
+            cropped_data = syxFileData[i+6:end_index]
             if command == "UPDATE_INIT":
-                version = parse_nibble(cropped_data[2:8])
-                if cropped_data[1] == 0x64:
-                    print("target: circuit tracks")
-                elif cropped_data[1] == 0x63:
-                    print("target: circuit rhythm")
-                else:
-                    print(hex(cropped_data))
+                version    = parse_nibble(cropped_data[2:8])
+                deviceName = device_list[cropped_data[1]]
                 print(f"init version: {version}")
+                print(f"device name: {deviceName}")
             elif command == "UPDATE_HEADER":
                 version  = parse_nibble(cropped_data[1:7])
                 print(f"header version: {version}")
@@ -70,9 +68,13 @@ def extract_sysex_messages(syx_path):
     calculated_checksum = crc32_non_reflected(finalFirmwareFile) 
     if calculated_checksum != checksum:
         raise ValueError(f"File checksum {calculated_checksum} does not match header checksum {checksum}")
-    with open(syx_path.with_suffix(".bin"), 'wb') as f:
-        f.write(finalFirmwareFile)
-        
-if len(sys.argv)!=2:
-    print("need to give a path to a .syx file")
-extract_sysex_messages(Path(sys.argv[1]))
+    return finalFirmwareFile, version, deviceName
+
+if __name__ == "__main__":
+    if len(sys.argv)!=2:
+        print("need to give a path to a .bin file")
+    syx_path = Path(sys.argv[1])
+    with open(syx_path, 'rb') as inFile, open(syx_path.with_suffix(".bin"), 'wb') as outFile:
+        syxFileData = inFile.read()
+        finalFirmwareFile, _, _ = extract_sysex_messages(syxFileData)
+        outFile.write(finalFirmwareFile)
