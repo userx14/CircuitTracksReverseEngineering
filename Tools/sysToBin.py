@@ -42,7 +42,6 @@ def extract_sysex_messages(syx_path):
                     print("target: circuit rhythm")
                 else:
                     print(hex(cropped_data))
-                    print(0x1d)
                 print(f"init version: {version}")
             elif command == "UPDATE_HEADER":
                 version  = parse_nibble(cropped_data[1:7])
