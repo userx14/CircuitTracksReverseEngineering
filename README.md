@@ -33,93 +33,92 @@
 <image  src="./Documentation/Mainboard-Photos/j3_debug_port.png">
 
 ## Microcontroller pinout
-| **Pin** | **Function**         |
-|--------|----------------------|
-| **UART** |
-| PA9    | UART1_TX            |
-| PB7    | UART1_RX            |
-| PD5    | UART2_TX            |
-|        |                      |
-| **SPI2** |
-| PC1    | SPI2_MOSI           |
-| PC2    | SPI2_MISO           |
-| PD3    | SPI2_SCK            |
-|        |                      |
-| **SPI4** |
-| PE14   | SPI4_MOSI           |
-| PE13   | SPI4_MISO           |
-| PE12   | SPI4_SCK            |
-|        |                      |
-| **SDMMC1** |
-| PD2    | SDMMC1_CMD          |
-| PC8    | SDMMC1_D0           |
-| PC9    | SDMMC1_D1           |
-| PC10   | SDMMC1_D2           |
-| PC11   | SDMMC1_D3           |
-| PC12   | SDMMC1_CK           |
-|        |                      |
-| **QUADSPI** |
-| PB2    | QUADSPI_CLK         |
-| PD11   | QUADSPI_BK1_IO0     |
-| PD12   | QUADSPI_BK1_IO1     |
-| PE2    | QUADSPI_BK1_IO2     |
-| PD13   | QUADSPI_BK1_IO3     |
-| PB6    | QUADSPI_BK1_NCS     |
-|        |                      |
-| **Clock Output** |
-| PA8    | MCO1                |
-|        |                      |
-| **USB OTG HS** |
-| PB14   | USB_OTG_HS_DM       |
-| PB15   | USB_OTG_HS_DP       |
-|        |                      |
-| **Outputs** |
-| PA12   | Output              |
-| PB1    | Output              |
-| PB4    | Output              |
-| PB8    | Output              |
-| PB9    | Output              |
-| PB10   | Output              |
-| PB11   | Output              |
-| PB12   | Output              |
-| PC0    | Output              |
-| PC4    | Output              |
-| PC6    | Output              |
-| PC15   | Output              |
-| PD0    | Output              |
-| PD1    | Output              |
-| PD6    | Output              |
-| PD8    | Output              |
-| PD9    | Output              |
-| PE3    | Output              |
-| PE4    | Output              |
-| PE10   | Output (Speed 2)    |
-| PE11   | Output              |
-| PE15   | Output              |
-|        |                      |
-| **Inputs** |
-| PA10   | Input               |
-| PA11   | Input (Speed 1)     |
-| PA15   | Input               |
-| PC5    | Input (Pull-Up)     |
-| PC7    | Input               |
-| PD4    | Input               |
-| PD7    | Input               |
-| PD10   | Input               |
-| PD14   | Input               |
-| PD15   | Input               |
-| PE0    | Input               |
-| PE2    | Input (Speed 1)     |
-| PE7    | Input (Speed 1)     |
-| PE8    | Input (Speed 1)     |
-| PE9    | Input (Speed 1)     |
-|        |                      |
-| **Analog Inputs** |
-| PA0    | Analog0             |
-| PA1    | Analog1             |
-| PA2    | Analog2             |
-| PA3    | Analog3             |
-| PA4    | Analog4             |
-| PA5    | Analog5             |
-| PA6    | Analog6             |
-
+| **Pin**     | **Function**        | **used in bootloader** |
+|-------------|---------------------|------------------------|
+| **UART**    | MIDI 5 PIN          |     |
+| PA9         | UART1_TX            |     |
+| PB7         | UART1_RX            |     |
+| PD5         | UART2_TX            |     |
+|             |                     |     |
+| **SPI2**    |                     |     |                         
+| PC1         | SPI2_MOSI           |     |
+| PC2         | SPI2_MISO           |     |
+| PD3         | SPI2_SCK            |     |
+|             |                     |     |
+| **SPI4**    |                     |     |
+| PE14        | SPI4_MOSI           | yes |
+| PE13        | SPI4_MISO           | yes |
+| PE12        | SPI4_SCK            | yes |
+|             |                     |     |
+| **SDMMC1**  | SDCARD              |     |
+| PD2         | SDMMC1_CMD          |     |
+| PC8         | SDMMC1_D0           |     |
+| PC9         | SDMMC1_D1           |     |
+| PC10        | SDMMC1_D2           |     |
+| PC11        | SDMMC1_D3           |     |
+| PC12        | SDMMC1_CK           |     | 
+|             |                     |     |
+| **QUADSPI** | NOR Flash           |     |
+| PB2         | QUADSPI_CLK         | yes |
+| PD11        | QUADSPI_BK1_IO0     | yes |
+| PD12        | QUADSPI_BK1_IO1     | yes |
+| PE2         | QUADSPI_BK1_IO2     | yes |
+| PD13        | QUADSPI_BK1_IO3     | yes |
+| PB6         | QUADSPI_BK1_NCS     | yes |
+|             |                     |     |
+| **Clk Out** |                     |     |
+| PA8         | MCO1                |     |
+|             |                     |     |
+| **USB HS**  |                     |     |
+| PB14        | USB_OTG_HS_DM       | yes |
+| PB15        | USB_OTG_HS_DP       | yes |
+|             |                     |     |
+| **Outputs** |                     |     |
+| PA12        | Output              |     |
+| PB1         | Output              | yes |
+| PB4         | Output              |     |
+| PB8         | Output              | yes |
+| PB9         | Output              | yes |
+| PB10        | Output              |     |
+| PB11        | Output              |     |
+| PB12        | Output              |     |
+| PC0         | Output              | yes |
+| PC4         | Output              | yes |
+| PC6         | Output              |     |
+| PC15        | Output              | yes |
+| PD0         | Output              |     |
+| PD1         | Output              |     |
+| PD6         | Output              | yes |
+| PD8         | Output              |     |
+| PD9         | Output              |     |
+| PE1         | Output (speed 1)    | yes |
+| PE3         | Output              |     |
+| PE4         | Output              |     |
+| PE7         | Output (speed 1)    | yes |
+| PE8         | Output (speed 1)    | yes |
+| PE9         | Output (speed 1)    | yes |
+| PE10        | Output (Speed 2)    | yes |
+| PE11        | Output              | yes |
+| PE15        | Output              | yes |
+|             |                     |     |
+| **Inputs**  |                     |     |
+| PA10        | Input               |     |
+| PA11        | Input               | yes |
+| PA15        | Input               |     |
+| PC5         | Input (Pull-Up)     | yes |
+| PC7         | Input               | yes |
+| PD4         | Input               |     |
+| PD7         | Input               |     |
+| PD10        | Input               | yes |
+| PD14        | Input               | yes |
+| PD15        | Input               | yes |
+| PE0         | Input               | yes |
+|             |                     |     |
+| **Anlg.I ** |                     |     |
+| PA0         | Analog0             |     |
+| PA1         | Analog1             |     |
+| PA2         | Analog2             |     |
+| PA3         | Analog3             |     |
+| PA4         | Analog4             |     |
+| PA5         | Analog5             |     |
+| PA6         | Analog6             |     |
