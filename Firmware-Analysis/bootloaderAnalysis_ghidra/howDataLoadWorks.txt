@@ -1,0 +1,70 @@
+08009694       int        3F0h      //flash_offset
+08009698       int        6EAh      //size_and_flags, size=0x375, flagL=0, flagH=0
+0800969c       int        20000004h //sram_dest
+080096a0       int        5h        //extra_field
+                 
+
+
+flash data section at 0x08009A84
+
+for backcopy at 0x08009a87
+
+
+def init_sram_dataSections(section, flash: bytearray, sram: bytearray, extra_offset: int):
+    flash_offset      = section['flashOffset']
+    size_and_flags    = section['sizeAndFlags']
+    sram_dest_offset  = section['sramDest']
+
+    compressed_flag   = size_and_flags & 0x1
+    size_bytes        = size_and_flags >> 1
+    use_extra_offset  = (size_and_flags >> 31) & 0x1
+
+    # Calculate source and destination pointers
+    src = section['base'] + flash_offset         # r3 = r2 + [r2]
+    dest = sram_dest_offset                      # r5 = [r2 + 8]
+
+    if use_extra_offset:
+        dest += extra_offset                     # r5 += param_3
+
+    end = src + (size_bytes >> 1)                # r4 = r3 + (size >> 1)
+
+    while src < end:
+        header = flash[src]
+        src += 1
+
+        copy_count = header & 0x3
+        if copy_count == 0:                 #larger copy
+            copy_count = flash[src] + 3
+            src += 1
+
+        backcopy_count = header >> 4
+        if backcopy_count == 0xF:
+            backcopy_count = flash[src] + 0xF
+            src += 1
+
+        # Copy from flash to SRAM
+        for _ in range(copy_count-1):
+            sram[dest] = flash[src]
+            dest += 1
+            src += 1
+
+
+        if backcopy_count != 0:
+            low = flash[src]
+            src += 1
+            header_bits_2_3 = (header >> 2) & 0x3
+            if header_bits_2_3 == 3:
+                high = flash[src]
+                src += 1
+            else:
+                high = header_bits_2_3
+            offset = (high << 8) | low
+
+            back_src = dest - offset
+
+            for _ in range(backcopy_count + 2):
+                sram[dest] = sram[back_src]
+                dest += 1
+                back_src += 1
+
+    return section['base'] + 0xC
